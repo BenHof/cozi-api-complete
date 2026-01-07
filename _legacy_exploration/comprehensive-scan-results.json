@@ -1,0 +1,628 @@
+{
+  "timestamp": "2026-01-07T05:29:14.942Z",
+  "accountId": "a2e52256-6f35-4f4a-b158-e3e1f96e387d",
+  "totalTests": 56,
+  "successful": 10,
+  "failed": 46,
+  "results": [
+    {
+      "name": "Account Info",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": true,
+      "status": 200,
+      "dataKeys": [
+        "accountId",
+        "cobrand",
+        "creationDate",
+        "name",
+        "colorIndex",
+        "timezone",
+        "regionDesignator",
+        "languageDesignator",
+        "analyticsOn",
+        "signupSource",
+        "photo"
+      ],
+      "dataPreview": "{\"accountId\":\"a2e52256-6f35-4f4a-b158-e3e1f96e387d\",\"cobrand\":\"COZI\",\"creationDate\":\"2021-08-01T18:55:24\",\"name\":\"Hofstetter Family\",\"colorIndex\":1,\"timezone\":\"America/New_York\",\"regionDesignator\":\"US"
+    },
+    {
+      "name": "Account Person List",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/person/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": true,
+      "status": 200,
+      "dataKeys": [
+        "accountPersonId",
+        "accountPersonType",
+        "version",
+        "notifiableFeatures",
+        "isAdult",
+        "accountCreator",
+        "emailStatus",
+        "notifiable",
+        "colorIndex",
+        "email",
+        "name",
+        "settings",
+        "phoneNumberKey"
+      ],
+      "dataPreview": "Array[5]"
+    },
+    {
+      "name": "Subscription",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/subscription/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": true,
+      "status": 200,
+      "dataKeys": [
+        "subscriptionStatus",
+        "providerSubscriptionId",
+        "subscriptionStartDate",
+        "subscriptionEndDate",
+        "subscriptionId",
+        "inTrial",
+        "subscriptionProduct",
+        "productProvider",
+        "providerUrl",
+        "entitlementId",
+        "renewing",
+        "statusPendingConfirmation",
+        "latestPaymentDate",
+        "concluded",
+        "nextPaymentDate",
+        "paymentMethod",
+        "subscriptionAmount"
+      ],
+      "dataPreview": "Array[2]"
+    },
+    {
+      "name": "Subscription Products",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/subscription/product/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": true,
+      "status": 200,
+      "dataKeys": [
+        "premiumBundleId",
+        "products",
+        "offeringUrl",
+        "termsOfUseUrl",
+        "couponData"
+      ],
+      "dataPreview": "{\"premiumBundleId\":\"2013_autumn_1\",\"products\":[{\"productName\":\"cozi_gold_stripe_yearly_39\",\"providerName\":\"stripe\",\"entitlementId\":\"cozi_gold\",\"features\":[\"3DayView\",\"Birthdays\",\"CalendarChangeNotific"
+    },
+    {
+      "name": "Config",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/config/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": true,
+      "status": 200,
+      "dataKeys": [
+        "features",
+        "featureKeys",
+        "featureConfig",
+        "feature.Meals",
+        "app",
+        "skin",
+        "feature.AllowedRecipeTags",
+        "feature.Advertising",
+        "feature.Marketing",
+        "feature.CoziToday"
+      ],
+      "dataPreview": "{\"features\":[\"3DayView\",\"AdminEntitlementApiTests_1719961614864_feature_1\",\"AdminEntitlementApiTests_1749186693149_feature_1\",\"AdminEntitlementApiTests_1762492800984_feature_1\",\"AdminEntitlementApiTes"
+    },
+    {
+      "name": "Lists",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": true,
+      "status": 200,
+      "dataKeys": [
+        "title",
+        "items",
+        "listId",
+        "listType",
+        "notes",
+        "owner",
+        "version"
+      ],
+      "dataPreview": "Array[6]"
+    },
+    {
+      "name": "Calendar Current Month",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/1?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": true,
+      "status": 200,
+      "dataKeys": [
+        "endDate",
+        "startDate",
+        "items",
+        "days"
+      ],
+      "dataPreview": "{\"endDate\":\"2026-02-01T00:00:00\",\"startDate\":\"2026-01-01T00:00:00\",\"items\":{\"923c92ab-53f6-4091-946b-4f4219f342ea\":{\"reminders\":[{\"minutesBefore\":60}],\"description\":\"Matthew basketball game\",\"itemDeta"
+    },
+    {
+      "name": "Calendar Search",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/search/calendar/&q=test?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Birthdays List",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/birthday/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Birthdays v2",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/birthday/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Birthdays v3",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/birthday/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Chores",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/chore/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Chores v2",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/chore/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Chores v3",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/chores/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Meals",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/meal/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Meals v2",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/meals/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Meal Plan",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/mealplan/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Meal Plan v2",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/meal/plan/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Menu",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/menu/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Menu Weekly",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/menu/weekly/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Journal",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/journal/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Journal Entries",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/journal/entry/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Notes",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/note/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Notes v2",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/notes/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Messages",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/message/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Photos",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/photo/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Photos v2",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/photos/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Media",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/media/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Activity",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/activity/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Notifications",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/notification/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Notifications v2",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/notifications/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Settings",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/settings/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Preferences",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/preferences/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Account Settings",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/settings/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Holidays",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/holiday/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Holidays v2",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/holidays/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Import",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/import/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Google Import",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/import/google/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Export",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/export/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Shopping",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/shopping/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Shopping List",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/shopping/list/?apikey=coziwc|v249_production",
+      "version": "2004",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Recipes",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/recipe/?apikey=coziwc|v249_production",
+      "version": "2103",
+      "success": true,
+      "status": 200,
+      "dataKeys": [],
+      "dataPreview": "Array[0]"
+    },
+    {
+      "name": "Curated Recipes",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/curated/recipe/?apikey=coziwc|v249_production",
+      "version": "2103",
+      "success": true,
+      "status": 200,
+      "dataKeys": [
+        "description",
+        "instructions",
+        "name",
+        "nutrition",
+        "cookTimeText",
+        "servingSize",
+        "servings",
+        "sourceRaw",
+        "sourceUrl",
+        "sourceUrlText",
+        "sourceLogoUrl",
+        "isPublished",
+        "tags",
+        "recipeId",
+        "ingredients",
+        "photos"
+      ],
+      "dataPreview": "Array[146]"
+    },
+    {
+      "name": "Food Items",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/?apikey=coziwc|v249_production",
+      "version": "2103",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Food Categories",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/category/?apikey=coziwc|v249_production",
+      "version": "2103",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Meal Plan (2103)",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/mealplan/?apikey=coziwc|v249_production",
+      "version": "2103",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Meal Plan v2 (2103)",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/mealplan/?apikey=coziwc|v249_production",
+      "version": "2103",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Menu (2103)",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/menu/?apikey=coziwc|v249_production",
+      "version": "2103",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Menu Weekly (2103)",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/menu/weekly/?apikey=coziwc|v249_production",
+      "version": "2103",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Grocery List",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/grocery/?apikey=coziwc|v249_production",
+      "version": "2103",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Pantry",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/pantry/?apikey=coziwc|v249_production",
+      "version": "2103",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "User Settings",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2106/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/user/settings?apikey=coziwc|v249_production",
+      "version": "2106",
+      "success": true,
+      "status": 200,
+      "dataKeys": [
+        "users"
+      ],
+      "dataPreview": "{\"users\":{}}"
+    },
+    {
+      "name": "Account Settings (2106)",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2106/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/settings/?apikey=coziwc|v249_production",
+      "version": "2106",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Preferences (2106)",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2106/a2e52256-6f35-4f4a-b158-e3e1f96e387d/preferences/?apikey=coziwc|v249_production",
+      "version": "2106",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Notification Settings",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2106/a2e52256-6f35-4f4a-b158-e3e1f96e387d/notification/settings/?apikey=coziwc|v249_production",
+      "version": "2106",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    },
+    {
+      "name": "Iterable Config",
+      "method": "GET",
+      "url": "https://rest.cozi.com/api/ext/2307/a2e52256-6f35-4f4a-b158-e3e1f96e387d/iterable/?apikey=coziwc|v249_production",
+      "version": "2307",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home "
+    }
+  ],
+  "discoveredEndpoints": [
+    "GET https://rest.cozi.com/api/ext/2004/{accountId}/account/",
+    "GET https://rest.cozi.com/api/ext/2004/{accountId}/account/person/",
+    "GET https://rest.cozi.com/api/ext/2004/{accountId}/subscription/",
+    "GET https://rest.cozi.com/api/ext/2004/{accountId}/subscription/product/",
+    "GET https://rest.cozi.com/api/ext/2004/{accountId}/config/",
+    "GET https://rest.cozi.com/api/ext/2004/{accountId}/list/",
+    "GET https://rest.cozi.com/api/ext/2004/{accountId}/calendar/2026/1",
+    "GET https://rest.cozi.com/api/ext/2103/{accountId}/food/recipe/",
+    "GET https://rest.cozi.com/api/ext/2103/{accountId}/food/curated/recipe/",
+    "GET https://rest.cozi.com/api/ext/2106/{accountId}/account/user/settings"
+  ]
+}

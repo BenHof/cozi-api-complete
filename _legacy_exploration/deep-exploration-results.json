@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-01-07T05:32:41.207Z",
+  "findings": [
+    {
+      "category": "Lists",
+      "description": "Found 6 lists with types: shopping, todo",
+      "data": {
+        "listNames": [
+          "Wholesale",
+          "Groceries",
+          "Other",
+          "Shared To Do",
+          "Ben To Do",
+          "Colleen’s To-Do List"
+        ]
+      }
+    },
+    {
+      "category": "Search",
+      "description": "Calendar search endpoint is working",
+      "data": {
+        "responseKeys": [
+          "startDate",
+          "endDate",
+          "selectedDay",
+          "hasNext",
+          "hasPrevious",
+          "days",
+          "items"
+        ]
+      }
+    },
+    {
+      "category": "Meals",
+      "description": "Meals feature configuration found in config",
+      "data": {
+        "curated": {
+          "recipes": [
+            {
+              "tag": "Cozi Picks",
+              "category": "Cozi picks",
+              "urlKey": "Cozi%20picks",
+              "isSponsored": false,
+              "isUpsell": false
+            },
+            {
+              "tag": "Cozi Top 20",
+              "category": "Cozi Top 20",
+              "urlKey": "Cozi%20Top%2020",
+              "isSponsored": false,
+              "isUpsell": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "category": "Push Notifications",
+      "description": "Iterable token endpoint works",
+      "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxNmI1YzZhZS03MDg5LTQzNjUtODVjZS1mNjY2MWNlYmE2M2QiLCJpYXQiOjE3Njc3NjM5NjIsImV4cCI6MTc3NTcxMjc2Mn0.7CVr0pbkG556XqVP97l-C9wXZHRiFZnyt4miGGja9aE",
+        "expiresAt": "2026-04-09T05:32:42"
+      }
+    }
+  ],
+  "calendarStructure": {
+    "topLevelKeys": [
+      "endDate",
+      "startDate",
+      "items",
+      "days"
+    ],
+    "hasItems": true,
+    "itemCount": 0,
+    "hasDays": true,
+    "hasAppointmentsById": false,
+    "hasBirthdaysById": false,
+    "hasHolidaysById": false,
+    "hasRecurrenceParentsById": false
+  },
+  "listTypes": [
+    "shopping",
+    "todo"
+  ],
+  "birthdays": [],
+  "holidays": []
+}

@@ -1,0 +1,534 @@
+{
+  "capturedAt": "2026-01-07T05:50:04.742Z",
+  "totalRequests": 84,
+  "listRelatedRequests": 46,
+  "requests": [
+    {
+      "url": "https://rest.cozi.com/api/ext/2207/auth/login?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:46:33.143Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2207/auth/login?apikey=coziwc|v249_production",
+      "method": "POST",
+      "postData": "{\"username\":\"ben.hofstetter@gmail.com\",\"password\":\"1500WynnburneDrive\",\"issueRefresh\":false}",
+      "timestamp": "2026-01-07T05:46:33.431Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2207/auth/login?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:46:41.991Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2207/auth/login?apikey=coziwc|v249_production",
+      "method": "POST",
+      "postData": "{\"username\":\"ben.hofstetter@gmail.com\",\"password\":\"1500WynnburneDrive!\",\"issueRefresh\":false}",
+      "timestamp": "2026-01-07T05:46:42.115Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/person/?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:46:42.431Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/person/?apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:46:42.551Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2106/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/user/settings?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:46:42.739Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2106/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/user/settings?apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:46:42.855Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:46:42.981Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/?apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:46:43.097Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2307/a2e52256-6f35-4f4a-b158-e3e1f96e387d/iterable/16b5c6ae-7089-4365-85ce-f6661ceba63d/token?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:46:43.247Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/subscription/?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:46:43.248Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/subscription/?apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:46:43.427Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2307/a2e52256-6f35-4f4a-b158-e3e1f96e387d/iterable/16b5c6ae-7089-4365-85ce-f6661ceba63d/token?apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:46:43.429Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/config/?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:46:43.806Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/config/?apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:46:43.927Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/subscription/product/?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:46:44.061Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/subscription/product/?apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:46:44.229Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:46:44.380Z",
+      "isListRelated": true,
+      "responseStatus": 200,
+      "responseBody": "[{\"title\":\"Wholesale\",\"items\":[],\"listId\":\"dec2f338-c6b0-4595-a568-6cebb2a8d46e\",\"listType\":\"shopping\",\"notes\":null,\"owner\":null,\"version\":23},{\"title\":\"Groceries\",\"items\":[{\"text\":\"item\",\"itemId\":\"b539e5f7-5b6e-472e-8470-f8b49f147524\",\"itemType\":null,\"notes\":null,\"owner\":null,\"status\":\"incomplete\",\"version\":11}],\"listId\":\"d460a09c-ef6e-4c67-bad3-0ba74f674c91\",\"listType\":\"shopping\",\"notes\":null,\"owner\":null,\"version\":11},{\"title\":\"Other\",\"items\":[],\"listId\":\"de665cce-a5d8-4f36-8162-d3beecee2ee0\",\"listType\":\"shopping\",\"notes\":null,\"owner\":null,\"version\":8},{\"title\":\"Recipe\",\"items\":[{\"text\":\"RECIPE\",\"itemId\":\"1666edf1-85db-4fc4-95f8-7f495e88efdf\",\"itemType\":\"header\",\"notes\":null,\"owner\":null,\"status\":\"incomplete\",\"version\":15}],\"listId\":\"c6a3f8d8-34af-4631-9d15-aa2e0b4e6044\",\"listType\":\"shopping\",\"notes\":null,\"owner\":null,\"version\":15},{\"title\":\"Shopping List for Ben\",\"items\":[{\"text\":\"Eggs\",\"itemId\":\"9e80ebd8-11aa-4529-870f-501c1ed3a9ac\",\"itemType\":null,\"notes\":null,\"owner\":null,\"status\":\"incomplete\",\"version\":18}],\"listId\":\"7b0e0b8d-66dd-4566-acbf-2d36d9851eea\",\"listType\":\"shopping\",\"notes\":null,\"owner\":null,\"version\":18},{\"title\":\"Shared To Do\",\"items\":[],\"listId\":\"4e896250-7d48-4230-af38-d68709ce1831\",\"listType\":\"todo\",\"notes\":null,\"owner\":null,\"version\":1},{\"title\":\"Ben To Do\",\"items\":[],\"listId\":\"af69064b-42df-4280-b64e-bfac32f9f1e1\",\"listType\":\"todo\",\"notes\":null,\"owner\":\"16b5c6ae-7089-4365-85ce-f6661ceba63d\",\"version\":1},{\"title\":\"Colleen’s To-Do List\",\"items\":[],\"listId\":\"a6a49d2b-c068-459c-a6cc-abbe652ef3ae\",\"listType\":\"todo\",\"notes\":null,\"owner\":\"44fa2b15-644b-43ef-883f-d1b3249b5c20\",\"version\":10}]"
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:46:44.480Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:46:44.496Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:46:44.594Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:46:47.518Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:46:47.669Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/dec2f338-c6b0-4595-a568-6cebb2a8d46e/item/?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:46:50.881Z",
+      "isListRelated": true,
+      "responseStatus": 201,
+      "responseBody": "{\"text\":\"SECTION\",\"itemId\":\"f889ffa5-4a89-4ad5-a21f-e616745a2d42\",\"itemType\":\"header\",\"notes\":null,\"owner\":null,\"status\":\"incomplete\",\"version\":19}"
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?list_type=shopping&apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:46:50.883Z",
+      "isListRelated": true,
+      "responseStatus": 200,
+      "responseBody": "[{\"title\":\"Wholesale\",\"items\":[{\"text\":\"Item\",\"itemId\":\"6b731f87-de9d-4a8a-8da2-5fde3c1ab3c8\",\"itemType\":null,\"notes\":null,\"owner\":null,\"status\":\"incomplete\",\"version\":16},{\"text\":\"TESST\",\"itemId\":\"7df320c1-2f3f-43e7-aba9-8ac9df786a78\",\"itemType\":\"header\",\"notes\":null,\"owner\":null,\"status\":\"incomplete\",\"version\":13},{\"text\":\"Test\",\"itemId\":\"bc3be75a-a0c5-45ed-b731-8aced4cb736a\",\"itemType\":null,\"notes\":null,\"owner\":null,\"status\":\"incomplete\",\"version\":12}],\"listId\":\"dec2f338-c6b0-4595-a568-6cebb2a8d46e\",\"listType\":\"shopping\",\"notes\":null,\"owner\":null,\"version\":16},{\"title\":\"Groceries\",\"items\":[{\"text\":\"item\",\"itemId\":\"b539e5f7-5b6e-472e-8470-f8b49f147524\",\"itemType\":null,\"notes\":null,\"owner\":null,\"status\":\"incomplete\",\"version\":11}],\"listId\":\"d460a09c-ef6e-4c67-bad3-0ba74f674c91\",\"listType\":\"shopping\",\"notes\":null,\"owner\":null,\"version\":11},{\"title\":\"Other\",\"items\":[],\"listId\":\"de665cce-a5d8-4f36-8162-d3beecee2ee0\",\"listType\":\"shopping\",\"notes\":null,\"owner\":null,\"version\":8},{\"title\":\"Recipe\",\"items\":[{\"text\":\"RECIPE\",\"itemId\":\"1666edf1-85db-4fc4-95f8-7f495e88efdf\",\"itemType\":\"header\",\"notes\":null,\"owner\":null,\"status\":\"incomplete\",\"version\":15}],\"listId\":\"c6a3f8d8-34af-4631-9d15-aa2e0b4e6044\",\"listType\":\"shopping\",\"notes\":null,\"owner\":null,\"version\":15},{\"title\":\"Shopping List for Ben\",\"items\":[{\"text\":\"Eggs\",\"itemId\":\"9e80ebd8-11aa-4529-870f-501c1ed3a9ac\",\"itemType\":null,\"notes\":null,\"owner\":null,\"status\":\"incomplete\",\"version\":18}],\"listId\":\"7b0e0b8d-66dd-4566-acbf-2d36d9851eea\",\"listType\":\"shopping\",\"notes\":null,\"owner\":null,\"version\":18}]"
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?list_type=shopping&apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:46:51.064Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/dec2f338-c6b0-4595-a568-6cebb2a8d46e/item/?apikey=coziwc|v249_production",
+      "method": "POST",
+      "postData": "{\"text\":\"Item\",\"position\":0}",
+      "timestamp": "2026-01-07T05:46:51.084Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:46:53.343Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:46:53.471Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:46:55.084Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:46:55.234Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:47:04.571Z",
+      "isListRelated": true,
+      "responseStatus": 201,
+      "responseBody": "{\"title\":\"Shopping List for Ben\",\"items\":[],\"listId\":\"7b0e0b8d-66dd-4566-acbf-2d36d9851eea\",\"listType\":\"shopping\",\"notes\":null,\"owner\":null,\"version\":17}"
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?apikey=coziwc|v249_production",
+      "method": "POST",
+      "postData": "{\"title\":\"Shopping List for Ben\",\"listType\":\"shopping\"}",
+      "timestamp": "2026-01-07T05:47:04.713Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?list_type=shopping&apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:47:04.971Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?list_type=shopping&apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:47:05.102Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/7b0e0b8d-66dd-4566-acbf-2d36d9851eea/item/?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:47:09.507Z",
+      "isListRelated": true,
+      "responseStatus": 201,
+      "responseBody": "{\"text\":\"Eggs\",\"itemId\":\"9e80ebd8-11aa-4529-870f-501c1ed3a9ac\",\"itemType\":null,\"notes\":null,\"owner\":null,\"status\":\"incomplete\",\"version\":18}"
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?list_type=shopping&apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:47:09.508Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?list_type=shopping&apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:47:09.625Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/7b0e0b8d-66dd-4566-acbf-2d36d9851eea/item/?apikey=coziwc|v249_production",
+      "method": "POST",
+      "postData": "{\"text\":\"Eggs\",\"position\":0}",
+      "timestamp": "2026-01-07T05:47:09.643Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?list_type=todo&apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:47:16.062Z",
+      "isListRelated": true,
+      "responseStatus": 200,
+      "responseBody": "[{\"title\":\"Shared To Do\",\"items\":[],\"listId\":\"4e896250-7d48-4230-af38-d68709ce1831\",\"listType\":\"todo\",\"notes\":null,\"owner\":null,\"version\":1},{\"title\":\"Ben To Do\",\"items\":[],\"listId\":\"af69064b-42df-4280-b64e-bfac32f9f1e1\",\"listType\":\"todo\",\"notes\":null,\"owner\":\"16b5c6ae-7089-4365-85ce-f6661ceba63d\",\"version\":1},{\"title\":\"Colleen’s To-Do List\",\"items\":[],\"listId\":\"a6a49d2b-c068-459c-a6cc-abbe652ef3ae\",\"listType\":\"todo\",\"notes\":null,\"owner\":\"44fa2b15-644b-43ef-883f-d1b3249b5c20\",\"version\":10}]"
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?list_type=todo&apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:47:16.180Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:47:18.059Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:47:18.238Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?list_type=shopping&apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:47:19.918Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?list_type=shopping&apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:47:20.099Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/dec2f338-c6b0-4595-a568-6cebb2a8d46e/item/?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:47:32.972Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?list_type=shopping&apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:47:32.973Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/dec2f338-c6b0-4595-a568-6cebb2a8d46e/item/?apikey=coziwc|v249_production",
+      "method": "POST",
+      "postData": "{\"text\":\"SECTION\",\"position\":0}",
+      "timestamp": "2026-01-07T05:47:33.095Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?list_type=shopping&apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:47:33.097Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/dec2f338-c6b0-4595-a568-6cebb2a8d46e/item/f889ffa5-4a89-4ad5-a21f-e616745a2d42?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:47:41.750Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/dec2f338-c6b0-4595-a568-6cebb2a8d46e/item/f889ffa5-4a89-4ad5-a21f-e616745a2d42?apikey=coziwc|v249_production",
+      "method": "DELETE",
+      "timestamp": "2026-01-07T05:47:41.877Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/dec2f338-c6b0-4595-a568-6cebb2a8d46e/item/6b731f87-de9d-4a8a-8da2-5fde3c1ab3c8?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:47:42.484Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/dec2f338-c6b0-4595-a568-6cebb2a8d46e/item/6b731f87-de9d-4a8a-8da2-5fde3c1ab3c8?apikey=coziwc|v249_production",
+      "method": "DELETE",
+      "timestamp": "2026-01-07T05:47:42.612Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/dec2f338-c6b0-4595-a568-6cebb2a8d46e/item/7df320c1-2f3f-43e7-aba9-8ac9df786a78?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:47:43.496Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/dec2f338-c6b0-4595-a568-6cebb2a8d46e/item/7df320c1-2f3f-43e7-aba9-8ac9df786a78?apikey=coziwc|v249_production",
+      "method": "DELETE",
+      "timestamp": "2026-01-07T05:47:43.617Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/dec2f338-c6b0-4595-a568-6cebb2a8d46e/item/bc3be75a-a0c5-45ed-b731-8aced4cb736a?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:47:44.108Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/dec2f338-c6b0-4595-a568-6cebb2a8d46e/item/bc3be75a-a0c5-45ed-b731-8aced4cb736a?apikey=coziwc|v249_production",
+      "method": "DELETE",
+      "timestamp": "2026-01-07T05:47:44.228Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:47:44.692Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:47:44.812Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:47:45.787Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:47:45.902Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?list_type=todo&apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:47:55.534Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?list_type=todo&apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:47:55.752Z",
+      "isListRelated": true
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/recipe/?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:48:00.469Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/curated/recipe/?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:48:00.478Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/recipe/?apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:48:00.613Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/curated/recipe/?apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:48:00.614Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/scrape/recipe/?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:48:19.282Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/scrape/recipe/?apikey=coziwc|v249_production",
+      "method": "POST",
+      "postData": "{\"url\":\"https://gobearcats.com\",\"save\":false}",
+      "timestamp": "2026-01-07T05:48:19.444Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/recipe/?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:48:39.661Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/recipe/?apikey=coziwc|v249_production",
+      "method": "POST",
+      "postData": "{\"recipeSource\":\"Scraped From Web\",\"name\":\"Fake Recipe - Home Page - University of Cincinnati Athletics - Official Athletics Website\",\"ingredients\":[],\"instructions\":\"\",\"sourceRaw\":\"https://gobearcats.com\",\"description\":\"The Official Athletic Site of the University of Cincinnati Bearcats, partner of WMT Digital. The most comprehensive coverage of Cincinnati Athletics with rosters, schedules, scores, highlights, game recaps, and more!\",\"isPublished\":true,\"cookTimeText\":null,\"servingSize\":null,\"tags\":{},\"photos\":[{\"originalUrl\":\"https://gobearcats.com/imgproxy/1GUo7hjBdKlRBGtLknkxusnsudrYaEXcJEdODiP6-ZU/rs:fit:1200:630:0:0/g:ce:0:0/q:70/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2dvYmVhcmNhdHMtY29tLXByb2QvMjAyNS8wNi8zMC9abU1TQkl2NmxuOW1zUG5iZUIwRHBiYUNNbHB0SEV3NmpLZ1UxekVtLmpwZw.jpg\",\"text\":null}],\"nutrition\":null,\"title\":\"Fake Recipe - Home Page - University of Cincinnati Athletics - Official Athletics Website\",\"notes\":\"\"}",
+      "timestamp": "2026-01-07T05:48:39.938Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/recipe/?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:48:40.667Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/recipe/?apikey=coziwc|v249_production",
+      "method": "POST",
+      "postData": "{\"description\":\"The Official Athletic Site of the University of Cincinnati Bearcats, partner of WMT Digital. The most comprehensive coverage of Cincinnati Athletics with rosters, schedules, scores, highlights, game recaps, and more!\",\"instructions\":\"\",\"name\":\"Fake Recipe - Home Page - University of Cincinnati Athletics - Official Athletics Website\",\"nutrition\":null,\"cookTimeText\":null,\"servingSize\":null,\"servings\":null,\"sourceRaw\":\"https://gobearcats.com\",\"sourceUrl\":\"https://gobearcats.com\",\"sourceUrlText\":\"gobearcats.com\",\"sourceLogoUrl\":null,\"isPublished\":true,\"tags\":{},\"recipeId\":\"780b5443-b38c-4ca7-8db6-684f6dbb4170\",\"ingredients\":[],\"photos\":[],\"creationDate\":\"2026-01-07T05:48:41\",\"lastUpdated\":\"2026-01-07T05:48:40\",\"version\":9,\"notes\":\"\",\"recipeBoxId\":\"baf9987a-36ce-4359-9637-7eae2d9a7637\",\"photoUrl\":\"https://cozi-services.s3.amazonaws.com/global/food/baf9987a-36ce-4359-9637-7eae2d9a7637_1be70f38-47a2-47c9-97be-407b1edcf5ef_orig_300x157.jpeg\",\"photoUrlText\":null}",
+      "timestamp": "2026-01-07T05:48:40.786Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/recipe/?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:49:01.797Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/recipe/?apikey=coziwc|v249_production",
+      "method": "POST",
+      "postData": "{\"recipeSource\":\"Typed Into Cozi\",\"description\":\"The Official Athletic Site of the University of Cincinnati Bearcats, partner of WMT Digital. The most comprehensive coverage of Cincinnati Athletics with rosters, schedules, scores, highlights, game recaps, and more!\",\"instructions\":\"\",\"name\":\"Fake Recipe - Home Page - University of Cincinnati Athletics - Official Athletics Website\",\"nutrition\":null,\"cookTimeText\":null,\"servingSize\":null,\"servings\":null,\"sourceRaw\":\"https://gobearcats.com\",\"sourceUrl\":\"https://gobearcats.com\",\"sourceUrlText\":\"gobearcats.com\",\"sourceLogoUrl\":null,\"isPublished\":false,\"tags\":{\"has-keyword\":[\"Category\"]},\"recipeId\":\"780b5443-b38c-4ca7-8db6-684f6dbb4170\",\"ingredients\":[],\"photos\":[],\"creationDate\":\"2026-01-07T05:48:41\",\"lastUpdated\":\"2026-01-07T05:48:40\",\"version\":10,\"notes\":\"\",\"recipeBoxId\":\"baf9987a-36ce-4359-9637-7eae2d9a7637\",\"title\":\"Fake Recipe - Home Page - University of Cincinnati Athletics - Official Athletics Website\"}",
+      "timestamp": "2026-01-07T05:49:01.922Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/recipe/?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:49:02.116Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2103/a2e52256-6f35-4f4a-b158-e3e1f96e387d/food/recipe/?apikey=coziwc|v249_production",
+      "method": "POST",
+      "postData": "{\"description\":\"The Official Athletic Site of the University of Cincinnati Bearcats, partner of WMT Digital. The most comprehensive coverage of Cincinnati Athletics with rosters, schedules, scores, highlights, game recaps, and more!\",\"instructions\":\"\",\"name\":\"Fake Recipe - Home Page - University of Cincinnati Athletics - Official Athletics Website\",\"nutrition\":null,\"cookTimeText\":null,\"servingSize\":null,\"servings\":null,\"sourceRaw\":\"https://gobearcats.com\",\"sourceUrl\":\"https://gobearcats.com\",\"sourceUrlText\":\"gobearcats.com\",\"sourceLogoUrl\":null,\"isPublished\":false,\"tags\":{\"has-keyword\":[\"Category\"]},\"recipeId\":\"780b5443-b38c-4ca7-8db6-684f6dbb4170\",\"ingredients\":[],\"photos\":[],\"creationDate\":\"2026-01-07T05:48:41\",\"lastUpdated\":\"2026-01-07T05:49:02\",\"version\":11,\"notes\":\"\",\"recipeBoxId\":\"baf9987a-36ce-4359-9637-7eae2d9a7637\"}",
+      "timestamp": "2026-01-07T05:49:02.245Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2111/a2e52256-6f35-4f4a-b158-e3e1f96e387d/icalendar/settings/?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:49:15.919Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2111/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/pii/?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:49:15.926Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/calendar/sharedcalendar/a2e52256-6f35-4f4a-b158-e3e1f96e387d/?apikey=coziwc|v249_production",
+      "method": "OPTIONS",
+      "timestamp": "2026-01-07T05:49:15.936Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2111/a2e52256-6f35-4f4a-b158-e3e1f96e387d/icalendar/settings/?apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:49:16.050Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/ext/2111/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/pii/?apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:49:16.058Z",
+      "isListRelated": false
+    },
+    {
+      "url": "https://rest.cozi.com/api/calendar/sharedcalendar/a2e52256-6f35-4f4a-b158-e3e1f96e387d/?apikey=coziwc|v249_production",
+      "method": "GET",
+      "timestamp": "2026-01-07T05:49:16.067Z",
+      "isListRelated": false
+    }
+  ]
+}

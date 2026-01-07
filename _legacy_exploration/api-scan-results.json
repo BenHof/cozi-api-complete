@@ -1,0 +1,209 @@
+{
+  "successful": [
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/",
+      "description": "Get all lists",
+      "status": 200,
+      "dataType": "array",
+      "dataKeys": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/1",
+      "description": "Get calendar for month (KNOWN)",
+      "status": 200,
+      "dataType": "object",
+      "dataKeys": [
+        "endDate",
+        "items",
+        "days",
+        "startDate"
+      ]
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/",
+      "description": "Get account details",
+      "status": 200,
+      "dataType": "object",
+      "dataKeys": [
+        "accountId",
+        "cobrand",
+        "creationDate",
+        "name",
+        "colorIndex",
+        "timezone",
+        "regionDesignator",
+        "languageDesignator",
+        "analyticsOn",
+        "signupSource",
+        "photo"
+      ]
+    }
+  ],
+  "forbidden": [],
+  "notFound": [
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/1/",
+      "description": "Get calendar with trailing slash"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/appointment/",
+      "description": "Get all appointments"
+    },
+    {
+      "method": "POST",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/appointment/",
+      "description": "Create appointment",
+      "testData": {
+        "subject": "Test",
+        "startYear": 2026,
+        "startMonth": 1,
+        "startDay": 15,
+        "start": "10:00",
+        "end": "11:00"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/appointment/2026/1/",
+      "description": "Get appointments for month"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/",
+      "description": "Get account info"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/profile/",
+      "description": "Get profile"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/settings/",
+      "description": "Get settings"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/family/",
+      "description": "Get family members"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/person/",
+      "description": "Get persons"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/member/",
+      "description": "Get members"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/user/",
+      "description": "Get user info"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/message/",
+      "description": "Get messages"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/messages/",
+      "description": "Get messages (plural)"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/journal/",
+      "description": "Get journal entries"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/note/",
+      "description": "Get notes"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/notes/",
+      "description": "Get notes (plural)"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/recipe/",
+      "description": "Get recipes"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/recipes/",
+      "description": "Get recipes (plural)"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/meal/",
+      "description": "Get meals"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/menu/",
+      "description": "Get menu"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/contact/",
+      "description": "Get contacts"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/contacts/",
+      "description": "Get contacts (plural)"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/reminder/",
+      "description": "Get reminders"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/notification/",
+      "description": "Get notifications"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/alert/",
+      "description": "Get alerts"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/sync/",
+      "description": "Get sync info"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/data/",
+      "description": "Get all data"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2207/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/1",
+      "description": "Calendar (2207 API)"
+    },
+    {
+      "method": "GET",
+      "path": "/api/ext/2207/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/",
+      "description": "Lists (2207 API)"
+    }
+  ],
+  "errors": []
+}

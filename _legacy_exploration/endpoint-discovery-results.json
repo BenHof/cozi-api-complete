@@ -1,0 +1,569 @@
+{
+  "timestamp": "2026-01-07T04:41:30.852Z",
+  "totalTests": 27,
+  "successful": 2,
+  "failed": 25,
+  "results": [
+    {
+      "name": "Get Meals",
+      "method": "GET",
+      "path": "/meal/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Menu",
+      "method": "GET",
+      "path": "/menu/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Weekly Menu",
+      "method": "GET",
+      "path": "/menu/weekly",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Meal Plans",
+      "method": "GET",
+      "path": "/mealplan/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Food Items",
+      "method": "GET",
+      "path": "/food/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Recipes",
+      "method": "GET",
+      "path": "/food/recipe/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Recipe Book",
+      "method": "GET",
+      "path": "/recipe/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Cookbook",
+      "method": "GET",
+      "path": "/cookbook/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Journal",
+      "method": "GET",
+      "path": "/journal/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Journal Entries",
+      "method": "GET",
+      "path": "/journal/entry/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Notes",
+      "method": "GET",
+      "path": "/note/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Messages",
+      "method": "GET",
+      "path": "/message/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Birthdays",
+      "method": "GET",
+      "path": "/birthday/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Holidays",
+      "method": "GET",
+      "path": "/holiday/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Special Days",
+      "method": "GET",
+      "path": "/specialday/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Search Calendar",
+      "method": "GET",
+      "path": "/calendar/search?q=test",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Search All",
+      "method": "GET",
+      "path": "/search?q=test",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Query",
+      "method": "GET",
+      "path": "/query?text=test",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Settings",
+      "method": "GET",
+      "path": "/settings/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Preferences",
+      "method": "GET",
+      "path": "/preferences/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Config",
+      "method": "GET",
+      "path": "/config/",
+      "success": true,
+      "data": {
+        "features": [
+          "3DayView",
+          "AdminEntitlementApiTests_1719961614864_feature_1",
+          "AdminEntitlementApiTests_1749186693149_feature_1",
+          "AdminEntitlementApiTests_1762492800984_feature_1",
+          "AdminEntitlementApiTests_1762924801871_feature_1",
+          "AdminEntitlementApiTests_1763443333903_feature_1",
+          "AdminEntitlementApiTests_1765430758836_feature_1",
+          "AdminEntitlementApiTests_1765949143923_feature_1",
+          "AlpineTheme",
+          "AnniversaryTheme",
+          "BalanceTheme",
+          "Birthdays",
+          "BlocksTheme",
+          "BloomTheme",
+          "BlossomTheme",
+          "CalendarChangeNotifications",
+          "CalendarEventCreationNotification",
+          "CalendarSearch",
+          "CalendarWidget",
+          "ChillTheme",
+          "Chores",
+          "ChromeTheme",
+          "CopyEvent",
+          "CosmicTheme",
+          "CoziMaxOverride",
+          "CoziclassicTheme",
+          "DoodleTheme",
+          "ErincondrenTheme",
+          "FilterByAttendee",
+          "GlowTheme",
+          "GoogleImport",
+          "HighcontrastTheme",
+          "JetsTheme",
+          "MealPlanner",
+          "MealsWebView",
+          "MobileMonthView",
+          "MobileRecipeBox",
+          "MultipleReminders",
+          "PlankTheme",
+          "PlumTheme",
+          "ShoppingMode",
+          "ShoppingModeTrial",
+          "SmartAdd",
+          "Suppress30DayTeaser",
+          "SuppressAds",
+          "Themes",
+          "TransportTheme",
+          "VacationTheme"
+        ],
+        "featureKeys": [
+          "3DayView",
+          "AdminEntitlementApiTests_1719961614864_feature_1",
+          "AdminEntitlementApiTests_1749186693149_feature_1",
+          "AdminEntitlementApiTests_1762492800984_feature_1",
+          "AdminEntitlementApiTests_1762924801871_feature_1",
+          "AdminEntitlementApiTests_1763443333903_feature_1",
+          "AdminEntitlementApiTests_1765430758836_feature_1",
+          "AdminEntitlementApiTests_1765949143923_feature_1",
+          "AnniversaryTheme",
+          "Birthdays",
+          "BloomTheme",
+          "CalendarChangeNotifications",
+          "CalendarEventCreationNotification",
+          "CalendarSearch",
+          "CalendarWidget",
+          "Chores",
+          "CopyEvent",
+          "CoziclassicTheme",
+          "ErincondrenTheme",
+          "FilterByAttendee",
+          "GoogleImport",
+          "HighcontrastTheme",
+          "MealPlanner",
+          "MealsWebView",
+          "MobileMonthView",
+          "MobileRecipeBox",
+          "MultipleReminders",
+          "ShoppingMode",
+          "ShoppingModeTrial",
+          "SmartAdd",
+          "Suppress30DayTeaser",
+          "SuppressAds",
+          "Themes"
+        ],
+        "featureConfig": {},
+        "feature.Meals": {
+          "curated": {
+            "recipes": [
+              {
+                "tag": "Cozi Picks",
+                "category": "Cozi picks",
+                "urlKey": "Cozi%20picks",
+                "isSponsored": false,
+                "isUpsell": false
+              },
+              {
+                "tag": "Cozi Top 20",
+                "category": "Cozi Top 20",
+                "urlKey": "Cozi%20Top%2020",
+                "isSponsored": false,
+                "isUpsell": false
+              }
+            ]
+          }
+        },
+        "app": {
+          "images": {
+            "background": null,
+            "recipePlaceholderThumbnail": "https://share.cozi.com/skin/684d812b-0d22-4c4f-bfe0-a9a9a7c3260f/48412995-c2d8-4eb2-b2fb-fe27a16e7167.png",
+            "cobrandpickerlogo": "https://share.cozi.com/cobrands/e4e0778d-b9df-4226-9ebd-36677f4f7e84/f7474b77-7915-4299-bd8a-d1c61eea6a22.custom.png"
+          },
+          "colors": {
+            "attendeeList": [
+              {
+                "color": "#ED6526",
+                "name": "Orange",
+                "text": "#FFFFFFFF",
+                "opacity": 1
+              },
+              {
+                "color": "#30A5BA",
+                "name": "Teal",
+                "text": "#000000",
+                "opacity": 0.5
+              },
+              {
+                "color": "#9B55B3",
+                "name": "Purple",
+                "text": "#000000",
+                "opacity": 0.7
+              },
+              {
+                "color": "#FAC751",
+                "name": "Yellow",
+                "text": "#000000",
+                "opacity": 0.7
+              },
+              {
+                "color": "#AAD762",
+                "name": "Lime",
+                "text": "#000000",
+                "opacity": 0.7
+              },
+              {
+                "color": "#3C71E1",
+                "name": "Blue",
+                "text": "#FFFFFFFF",
+                "opacity": 1
+              },
+              {
+                "color": "#04386A",
+                "name": "Navy",
+                "text": "#FFFFFFFF",
+                "opacity": 1
+              },
+              {
+                "color": "#FF963B",
+                "name": "Apricot",
+                "text": "#000000",
+                "opacity": 0.7
+              },
+              {
+                "color": "#8A0753",
+                "name": "Plum",
+                "text": "#FFFFFFFF",
+                "opacity": 0.8
+              },
+              {
+                "color": "#037CBC",
+                "name": "Cerulean",
+                "text": "#FFFFFFFF",
+                "opacity": 1
+              },
+              {
+                "color": "#DB3968",
+                "name": "Magenta",
+                "text": "#FFFFFFFF",
+                "opacity": 1
+              },
+              {
+                "color": "#C1D6CF",
+                "name": "Mint",
+                "text": "#000000",
+                "opacity": 0.5
+              },
+              {
+                "color": "#338602",
+                "name": "Green",
+                "text": "#000000",
+                "opacity": 0.6
+              },
+              {
+                "color": "#8177B3",
+                "name": "Mauve",
+                "text": "#000000",
+                "opacity": 0.5
+              },
+              {
+                "color": "#C10735",
+                "name": "Red",
+                "text": "#FFFFFFFF",
+                "opacity": 1
+              },
+              {
+                "color": "#7DD4C1",
+                "name": "Turquoise",
+                "text": "#000000",
+                "opacity": 0.6
+              }
+            ],
+            "attendeePalette": {
+              "0": "#ed6526",
+              "1": "#30a5ba",
+              "2": "#9b55b3",
+              "3": "#fac751",
+              "4": "#aad762",
+              "5": "#3c71e1",
+              "6": "#04386a",
+              "7": "#ff963b",
+              "8": "#8a0753",
+              "9": "#037cbc",
+              "10": "#db3968",
+              "11": "#c1d6cf",
+              "12": "#338602",
+              "13": "#8177b3",
+              "14": "#c10735",
+              "15": "#7dd4c1"
+            }
+          },
+          "flags": {
+            "centeredNav": true,
+            "orangeCheckboxes": false,
+            "visibleToUser": true
+          },
+          "strings": {
+            "userFriendlyName": "Sky",
+            "appNameShort": "Cozi",
+            "comScoreId": "",
+            "description": "Get the original Cozi Theme applied to your mobile app.",
+            "removeText": "Cozi mobile app is already using the default theme. To change please select a different partner.",
+            "addText": "Get the original Cozi Theme applied to your mobile app.",
+            "trademarkText": "",
+            "appNameLong": "Cozi Family Organizer"
+          },
+          "links": {
+            "partnerNavItem": {
+              "url": "http://my.cozi.com",
+              "inApp": false,
+              "label": ""
+            },
+            "editorialNavItem": {
+              "url": "http://www.cozi.com/ambassadors/",
+              "inApp": false,
+              "label": "Join Club Cozi"
+            }
+          }
+        },
+        "skin": {
+          "type": "Theme",
+          "name": "Sky"
+        },
+        "feature.AllowedRecipeTags": {
+          "has-ai-protein": [
+            "Chicken",
+            "Beef",
+            "Turkey",
+            "Vegetarian",
+            "Pork",
+            "Seafood",
+            "Other"
+          ],
+          "has-ai-cuisine": [
+            "American",
+            "Mexican",
+            "Mediterranean",
+            "Italian",
+            "Asian",
+            "Indian",
+            "Other"
+          ],
+          "has-ai-meal": [
+            "Dinner",
+            "Lunch",
+            "Breakfast",
+            "Dessert",
+            "Other"
+          ]
+        },
+        "feature.Advertising": {
+          "suppressAds": true,
+          "keywords": {
+            "todo": [],
+            "shopping": [],
+            "calendar": []
+          }
+        },
+        "feature.Marketing": {
+          "seasonalCampaign": {
+            "cardName": "Back to School",
+            "lists": [
+              "https://cozi.s3.us-east-1.amazonaws.com/addtocozi/bts2024_unwind_for_bedtime.json",
+              "https://cozi.s3.us-east-1.amazonaws.com/addtocozi/bts2024_get_well_soon.json",
+              "https://cozi.s3.us-east-1.amazonaws.com/addtocozi/bts2024_clothing_essentials.json",
+              "https://cozi.s3.us-east-1.amazonaws.com/addtocozi/bts2024_first_day_of_practice.json",
+              "https://cozi.s3.us-east-1.amazonaws.com/addtocozi/bts2024_planning_routes.json",
+              "https://cozi.s3.us-east-1.amazonaws.com/addtocozi/bts2024_prepping_the_house_for_chaos.json"
+            ]
+          }
+        },
+        "feature.CoziToday": {
+          "timelyMarketingCards": {},
+          "cardOrder": [
+            "Welcome IUE",
+            "Seasonal Campaign",
+            "Happy Bday",
+            "New Shopping Items",
+            "Bdays Month",
+            "Bdays This week",
+            "Journal",
+            "Cozi Communications",
+            "cozi_communication",
+            "Calendar",
+            "Advertising",
+            "Gold Upsell",
+            "Content 1",
+            "Small Vic Friday",
+            "small_victory",
+            "Get Started IUE",
+            "Shopping",
+            "Content 2",
+            "Swipe To Dismiss",
+            "Timely Editorial",
+            "timely_editorial",
+            "To Do",
+            "Content 3",
+            "Sponsored Content",
+            "Unsponsored Content",
+            "Facebook"
+          ]
+        }
+      },
+      "status": 200
+    },
+    {
+      "name": "Get User Settings (2106)",
+      "method": "GET",
+      "path": "/account/user/settings",
+      "base": "https://rest.cozi.com/api/ext/2106",
+      "success": true,
+      "data": {
+        "users": {}
+      },
+      "status": 200
+    },
+    {
+      "name": "Get Photos",
+      "method": "GET",
+      "path": "/photo/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Media",
+      "method": "GET",
+      "path": "/media/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Contacts",
+      "method": "GET",
+      "path": "/contact/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Activity",
+      "method": "GET",
+      "path": "/activity/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    },
+    {
+      "name": "Get Notifications",
+      "method": "GET",
+      "path": "/notification/",
+      "success": false,
+      "status": 404,
+      "error": "<html><body>I'm sorry, there is no page here, please visit <a href='https://www.cozi.com/'>our home page</a>.</body></html>"
+    }
+  ]
+}

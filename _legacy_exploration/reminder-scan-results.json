@@ -1,0 +1,74 @@
+{
+  "working": [
+    {
+      "endpoint": "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/subscription/",
+      "data": [
+        {
+          "subscriptionStartDate": "2023-11-01T01:53:48",
+          "providerSubscriptionId": "sub_1O2OxEE5vggpd8DBeEhITUbN",
+          "subscriptionId": "4a68e827-492b-4d1f-9876-0f1ccbb34466",
+          "subscriptionEndDate": null,
+          "subscriptionStatus": "active",
+          "inTrial": false,
+          "subscriptionProduct": "cozi_gold_stripe_yearly_39",
+          "productProvider": "stripe",
+          "providerUrl": "https://dashboard.stripe.com",
+          "entitlementId": "cozi_gold",
+          "renewing": true,
+          "statusPendingConfirmation": false,
+          "latestPaymentDate": "2025-11-01T03:18:45",
+          "concluded": false,
+          "nextPaymentDate": "2026-11-01T01:53:48",
+          "paymentMethod": {
+            "brand": "Visa",
+            "expMonth": 12,
+            "expYear": 2028,
+            "name": "Colleen Tepe Hofstetter",
+            "lastFour": "1547"
+          },
+          "subscriptionAmount": 3900
+        },
+        {
+          "subscriptionStartDate": "2021-08-01T19:33:37",
+          "providerSubscriptionId": "110001070568779",
+          "subscriptionId": "b81cb738-1dde-4b3c-bf3a-da2db7698eb1",
+          "subscriptionEndDate": "2023-08-01T19:37:06",
+          "subscriptionStatus": "canceled",
+          "inTrial": false,
+          "subscriptionProduct": "cozi_gold_iap_yearly_autorenewing",
+          "productProvider": "apple",
+          "providerUrl": null,
+          "entitlementId": "cozi_gold",
+          "renewing": true,
+          "secondsToExpiry": 0,
+          "statusPendingConfirmation": false,
+          "latestPaymentDate": "2022-08-01T19:35:09",
+          "concluded": false,
+          "nextPaymentDate": null
+        }
+      ]
+    }
+  ],
+  "forbidden": [],
+  "notFound": [
+    "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/reminder/",
+    "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/reminders/",
+    "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/notification/",
+    "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/notifications/",
+    "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/alert/",
+    "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/alerts/",
+    "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/settings/reminder/",
+    "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/settings/notification/",
+    "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/notification/",
+    "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/reminder/",
+    "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/person/notification/",
+    "/api/ext/2207/a2e52256-6f35-4f4a-b158-e3e1f96e387d/reminder/",
+    "/api/ext/2207/a2e52256-6f35-4f4a-b158-e3e1f96e387d/notification/",
+    "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/preferences/",
+    "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/preference/",
+    "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/profile/notification/",
+    "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/device/",
+    "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/devices/",
+    "/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/push/"
+  ]
+}

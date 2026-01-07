@@ -1,0 +1,718 @@
+{
+  "capturedAt": "2026-01-07T04:53:49.104Z",
+  "totalRequests": 54,
+  "byCategory": {
+    "meals": 0,
+    "recipes": 0,
+    "birthdays": 0,
+    "search": 6,
+    "chores": 0,
+    "calendar": 20,
+    "other": 28
+  },
+  "requests": {
+    "meals": [],
+    "recipes": [],
+    "birthdays": [],
+    "search": [
+      {
+        "timestamp": "2026-01-07T04:53:00.250Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/search/calendar/?apikey=coziwc|v249_production&q=test",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:00.377Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/search/calendar/?apikey=coziwc|v249_production&q=test",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null,
+        "responseStatus": 200,
+        "responseBody": "{\"startDate\":\"2025-03-06T10:30:00\",\"endDate\":\"2026-06-25T00:00:00\",\"selectedDay\":\"2026-01-07\",\"hasNext\":true,\"hasPrevious\":false,\"days\":{\"2026-01-07\":[{\"id\":\"d4296424-8d34-44fc-953d-4f75cd223695-a\",\"multiday\":{\"startDay\":\"2026-01-07\",\"endDay\":\"2026-01-08\"}}],\"2026-01-08\":[{\"id\":\"d4296424-8d34-44fc-953d-4f75cd223695-a\",\"multiday\":{\"startDay\":\"2026-01-07\",\"endDay\":\"2026-01-08\"}},{\"id\":\"bcdfd3f4-8278-4670-9fd1-30461b9f9228-a\",\"multiday\":{\"startDay\":\"2026-01-08\",\"endDay\":\"2026-01-09\"}}],\"2026-01-09\":[{\"id\":\"bcdfd3f4-8278-4670-9fd1-30461b9f9228-a\",\"multiday\":{\"startDay\":\"2026-01-08\",\"endDay\":\"2026-01-09\"}}],\"2026-04-30\":[{\"id\":\"63d6c11d-17d5-46bf-b26c-3ebf6f7602aa-a\"}],\"2026-05-14\":[{\"id\":\"63d6c11d-17d5-46bf-b26c-3ebf6f7602aa-a\"}],\"2026-05-28\":[{\"id\":\"63d6c11d-17d5-46bf-b26c-3ebf6f7602aa-a\"}],\"2026-06-11\":[{\"id\":\"63d6c11d-17d5-46bf-b26c-3ebf6f7602aa-a\"}],\"2026-06-25\":[{\"id\":\"63d6c11d-17d5-46bf-b26c-3ebf6f7602aa-a\"}],\"2025-05-01\":[{\"id\":\"6ff3d9d8-4167-4dae-a2ad-26d96ed9526a-a\"}],\"2025-03-06\":[{\"id\":\"a858eb01-b629-411d-a92c-4e06a12bd36c-a\"},{\"id\":\"f6c9752b-3118-4940-aad6-1254bfb673da-a\"}]},\"items\":{\"d4296424-8d34-44fc-953d-4f75cd223695-a\":{\"item\":{\"itemType\":\"appointment\",\"itemVersion\":1507,\"reminders\":[{\"minutesBefore\":30}],\"startTime\":\"14:00:00\",\"endTime\":\"15:00:00\",\"dateSpan\":1,\"id\":\"d4296424-8d34-44fc-953d-4f75cd223695-a\",\"itemDetails\":{\"notes\":\"This is a test appointment created via the Cozi API. Feel free to delete it!\",\"id\":\"d4296424-8d34-44fc-953d-4f75cd223695\",\"reminder\":{\"minutesBefore\":30},\"location\":\"Test Location\"},\"description\":\"API Test - Please Delete\",\"day\":\"2026-01-07\"},\"highlight\":{\"notes\":\"This is a **test** appointment created via the Cozi API. Feel free to delete it!\",\"description\":\"API **Test** - Please Delete\",\"location\":\"**Test** Location\"}},\"bcdfd3f4-8278-4670-9fd1-30461b9f9228-a\":{\"item\":{\"itemType\":\"appointment\",\"itemVersion\":1513,\"descriptionShort\":\"CRUD Test Appt\",\"startTime\":\"10:00:00\",\"endTime\":\"11:00:00\",\"dateSpan\":1,\"id\":\"bcdfd3f4-8278-467...[TRUNCATED]"
+      },
+      {
+        "timestamp": "2026-01-07T04:53:06.883Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/search/calendar/?apikey=coziwc|v249_production&q=Mitchell",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:07.007Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/search/calendar/?apikey=coziwc|v249_production&q=Mitchell",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null,
+        "responseStatus": 200,
+        "responseBody": "{\"startDate\":\"2025-11-14T17:00:00\",\"endDate\":\"2026-02-27T17:00:00\",\"selectedDay\":\"2026-01-06\",\"hasNext\":false,\"hasPrevious\":true,\"days\":{\"2026-01-06\":[{\"id\":\"6840aa26-486e-405a-9466-d35d88d46905-a\"}],\"2026-01-05\":[{\"id\":\"bc42f727-012a-4629-8def-267e3e7a5568-a\"}],\"2026-01-09\":[{\"id\":\"aaaeadeb-f771-4f89-8a76-cc86c5499775-a\"},{\"id\":\"3797ac60-0bb1-4d7b-90bd-070030174568-a\"}],\"2026-01-04\":[{\"id\":\"dd61d943-aacb-496a-bdf5-52c9c50b1b2a-a\"},{\"id\":\"cbcf0118-0152-4793-8372-3f8c6d08796c-a\"}],\"2026-01-10\":[{\"id\":\"d18f45be-5f93-4acc-b522-c566283a7590-a\"}],\"2026-01-03\":[{\"id\":\"47b2abbc-a113-44be-98dd-5a7b96ca883e-a\"}],\"2026-01-11\":[{\"id\":\"7a0ab022-bfa6-4b8b-bc77-2f8f8e4fa99f-a\"},{\"id\":\"4cdf2b66-e55f-4c49-9eea-7020f7716bb3-a\"},{\"id\":\"26504174-90e7-4125-a395-6be55163f771-a\"}],\"2026-01-12\":[{\"id\":\"bc42f727-012a-4629-8def-267e3e7a5568-a\"}],\"2026-01-13\":[{\"id\":\"6840aa26-486e-405a-9466-d35d88d46905-a\"}],\"2025-12-30\":[{\"id\":\"6840aa26-486e-405a-9466-d35d88d46905-a\"}],\"2025-12-29\":[{\"id\":\"bc42f727-012a-4629-8def-267e3e7a5568-a\"}],\"2026-01-16\":[{\"id\":\"3797ac60-0bb1-4d7b-90bd-070030174568-a\"}],\"2026-01-17\":[{\"id\":\"b71756b3-5aa2-4e5f-842f-c777182971ed-a\"}],\"2025-12-27\":[{\"id\":\"ce159576-abcc-41a1-b8cb-c3d8dc2ae045-a\"}],\"2026-01-19\":[{\"id\":\"bc42f727-012a-4629-8def-267e3e7a5568-a\"}],\"2026-01-20\":[{\"id\":\"6840aa26-486e-405a-9466-d35d88d46905-a\"}],\"2025-12-23\":[{\"id\":\"292e290c-d03d-4ff8-97a5-be85ccf0654d-a\"},{\"id\":\"6840aa26-486e-405a-9466-d35d88d46905-a\"}],\"2025-12-22\":[{\"id\":\"bc42f727-012a-4629-8def-267e3e7a5568-a\"}],\"2026-01-23\":[{\"id\":\"3797ac60-0bb1-4d7b-90bd-070030174568-a\"}],\"2026-01-24\":[{\"id\":\"c9240afb-60ae-4bd7-b3ee-40c2ccc0378e-a\"}],\"2026-01-26\":[{\"id\":\"bc42f727-012a-4629-8def-267e3e7a5568-a\"}],\"2026-01-27\":[{\"id\":\"6840aa26-486e-405a-9466-d35d88d46905-a\"}],\"2025-12-16\":[{\"id\":\"6840aa26-486e-405a-9466-d35d88d46905-a\"}],\"2025-12-15\":[{\"id\":\"bc42f727-012a-4629-8def-267e3e7a5568-a\"}],\"2026-01-30\":[{\"id\":\"3797ac60-0bb1-4d7b-90bd-070030174568-a\"}],\"2025-12-13\":[{\"id\":\"5dce4973-a274-467d-bda1-e85...[TRUNCATED]"
+      },
+      {
+        "timestamp": "2026-01-07T04:53:20.233Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/search/calendar/?apikey=coziwc|v249_production&q=Mitchell",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:20.385Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/search/calendar/?apikey=coziwc|v249_production&q=Mitchell",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null,
+        "responseStatus": 200,
+        "responseBody": "{\"startDate\":\"2025-11-14T17:00:00\",\"endDate\":\"2026-02-27T17:00:00\",\"selectedDay\":\"2026-01-06\",\"hasNext\":false,\"hasPrevious\":true,\"days\":{\"2026-01-06\":[{\"id\":\"6840aa26-486e-405a-9466-d35d88d46905-a\"}],\"2026-01-05\":[{\"id\":\"bc42f727-012a-4629-8def-267e3e7a5568-a\"}],\"2026-01-09\":[{\"id\":\"aaaeadeb-f771-4f89-8a76-cc86c5499775-a\"},{\"id\":\"3797ac60-0bb1-4d7b-90bd-070030174568-a\"}],\"2026-01-04\":[{\"id\":\"dd61d943-aacb-496a-bdf5-52c9c50b1b2a-a\"},{\"id\":\"cbcf0118-0152-4793-8372-3f8c6d08796c-a\"}],\"2026-01-10\":[{\"id\":\"d18f45be-5f93-4acc-b522-c566283a7590-a\"}],\"2026-01-03\":[{\"id\":\"47b2abbc-a113-44be-98dd-5a7b96ca883e-a\"}],\"2026-01-11\":[{\"id\":\"7a0ab022-bfa6-4b8b-bc77-2f8f8e4fa99f-a\"},{\"id\":\"4cdf2b66-e55f-4c49-9eea-7020f7716bb3-a\"},{\"id\":\"26504174-90e7-4125-a395-6be55163f771-a\"}],\"2026-01-12\":[{\"id\":\"bc42f727-012a-4629-8def-267e3e7a5568-a\"}],\"2026-01-13\":[{\"id\":\"6840aa26-486e-405a-9466-d35d88d46905-a\"}],\"2025-12-30\":[{\"id\":\"6840aa26-486e-405a-9466-d35d88d46905-a\"}],\"2025-12-29\":[{\"id\":\"bc42f727-012a-4629-8def-267e3e7a5568-a\"}],\"2026-01-16\":[{\"id\":\"3797ac60-0bb1-4d7b-90bd-070030174568-a\"}],\"2026-01-17\":[{\"id\":\"b71756b3-5aa2-4e5f-842f-c777182971ed-a\"}],\"2025-12-27\":[{\"id\":\"ce159576-abcc-41a1-b8cb-c3d8dc2ae045-a\"}],\"2026-01-19\":[{\"id\":\"bc42f727-012a-4629-8def-267e3e7a5568-a\"}],\"2026-01-20\":[{\"id\":\"6840aa26-486e-405a-9466-d35d88d46905-a\"}],\"2025-12-23\":[{\"id\":\"292e290c-d03d-4ff8-97a5-be85ccf0654d-a\"},{\"id\":\"6840aa26-486e-405a-9466-d35d88d46905-a\"}],\"2025-12-22\":[{\"id\":\"bc42f727-012a-4629-8def-267e3e7a5568-a\"}],\"2026-01-23\":[{\"id\":\"3797ac60-0bb1-4d7b-90bd-070030174568-a\"}],\"2026-01-24\":[{\"id\":\"c9240afb-60ae-4bd7-b3ee-40c2ccc0378e-a\"}],\"2026-01-26\":[{\"id\":\"bc42f727-012a-4629-8def-267e3e7a5568-a\"}],\"2026-01-27\":[{\"id\":\"6840aa26-486e-405a-9466-d35d88d46905-a\"}],\"2025-12-16\":[{\"id\":\"6840aa26-486e-405a-9466-d35d88d46905-a\"}],\"2025-12-15\":[{\"id\":\"bc42f727-012a-4629-8def-267e3e7a5568-a\"}],\"2026-01-30\":[{\"id\":\"3797ac60-0bb1-4d7b-90bd-070030174568-a\"}],\"2025-12-13\":[{\"id\":\"5dce4973-a274-467d-bda1-e85...[TRUNCATED]"
+      }
+    ],
+    "chores": [],
+    "calendar": [
+      {
+        "timestamp": "2026-01-07T04:52:50.417Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2025/12?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:52:50.418Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/1?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:52:50.419Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/2?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:52:50.579Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/1?apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:52:50.580Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/2?apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:52:50.592Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2025/12?apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null,
+        "responseStatus": 200,
+        "responseBody": "{\"endDate\":\"2026-01-01T00:00:00\",\"items\":{\"b5861115-85ab-4b01-98b1-8fad69a35869\":{\"reminders\":[{\"minutesBefore\":120},{\"minutesBefore\":60}],\"itemType\":\"appointment\",\"id\":\"b5861115-85ab-4b01-98b1-8fad69a35869\",\"description\":\"Mia Orthodontist\",\"endTime\":\"15:45:00\",\"itemDetails\":{\"reminder\":{\"minutesBefore\":60},\"id\":\"b5861115-85ab-4b01-98b1-8fad69a35869\",\"location\":\"Martinez \"},\"itemVersion\":1376,\"day\":\"2025-12-01\",\"householdMembers\":[\"356c65c1-61c3-4e7c-bf08-8218883aac01\"],\"startTime\":\"14:45:00\"},\"4cc75e53-b550-4e4f-8827-6d513acdeadb\":{\"reminders\":[{\"minutesBefore\":60}],\"itemType\":\"appointment\",\"id\":\"4cc75e53-b550-4e4f-8827-6d513acdeadb\",\"description\":\"Mitchell Basketball Practice\",\"endTime\":\"20:00:00\",\"itemDetails\":{\"reminder\":{\"minutesBefore\":60},\"id\":\"4cc75e53-b550-4e4f-8827-6d513acdeadb\",\"location\":\"St Antoninus \"},\"itemVersion\":1416,\"day\":\"2025-12-02\",\"householdMembers\":[\"acdb79e0-146e-4295-8f34-61407f39ef39\"],\"startTime\":\"18:45:00\"},\"2fc70cdb-19c0-4ae9-ba89-6f691b51bb48\":{\"reminders\":[{\"minutesBefore\":120},{\"minutesBefore\":60}],\"itemType\":\"appointment\",\"id\":\"2fc70cdb-19c0-4ae9-ba89-6f691b51bb48\",\"description\":\"Matthew Youth Group\",\"endTime\":\"21:00:00\",\"itemDetails\":{\"reminder\":{\"minutesBefore\":60},\"id\":\"2fc70cdb-19c0-4ae9-ba89-6f691b51bb48\",\"location\":\"Drop off at front of OLL church\"},\"itemVersion\":1403,\"day\":\"2025-12-02\",\"householdMembers\":[\"13344d84-655b-443b-843a-2d99339f5245\"],\"startTime\":\"18:00:00\"},\"bf87cff3-e648-4ca2-a5f4-c2a3f733848f\":{\"reminders\":[{\"minutesBefore\":60}],\"itemType\":\"appointment\",\"id\":\"bf87cff3-e648-4ca2-a5f4-c2a3f733848f\",\"description\":\"Mom tennis practice\",\"endTime\":\"19:00:00\",\"itemDetails\":{\"reminder\":{\"minutesBefore\":60},\"id\":\"bf87cff3-e648-4ca2-a5f4-c2a3f733848f\"},\"itemVersion\":1417,\"day\":\"2025-12-03\",\"householdMembers\":[\"44fa2b15-644b-43ef-883f-d1b3249b5c20\"],\"startTime\":\"18:00:00\"},\"11bc4f82-98cc-4716-8fa1-46a5d01a0185\":{\"reminders\":[{\"minutesBefore\":120},{\"minutesBefore\":60}],\"descriptionShort\":\"Reconciliation Mtg\",\"itemType\":\"appo...[TRUNCATED]"
+      },
+      {
+        "timestamp": "2026-01-07T04:53:17.704Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/1?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:17.834Z",
+        "method": "POST",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/1?apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": "[{\"itemType\":\"appointment\",\"notifyPersons\":[\"13344d84-655b-443b-843a-2d99339f5245\",\"16b5c6ae-7089-4365-85ce-f6661ceba63d\"],\"edit\":{\"id\":\"aaaeadeb-f771-4f89-8a76-cc86c5499775-a\",\"startDay\":\"2026-01-09\",\"reminders\":[{\"minutesBefore\":1440},{\"minutesBefore\":60}],\"details\":{\"startTime\":\"15:00\",\"endTime\":\"16:00\",\"dateSpan\":0,\"attendeeSet\":[\"acdb79e0-146e-4295-8f34-61407f39ef39\",\"13344d84-655b-443b-843a-2d99339f5245\"],\"location\":\"NEW LOCATION\",\"subject\":\"Matthew and Mitchell Haircuts\"}}}]"
+      },
+      {
+        "timestamp": "2026-01-07T04:53:18.218Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/2?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:18.219Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/3?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:18.220Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/4?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null,
+        "responseStatus": 200,
+        "responseBody": "{\"endDate\":\"2026-02-01T00:00:00\",\"items\":{\"923c92ab-53f6-4091-946b-4f4219f342ea\":{\"reminders\":[{\"minutesBefore\":60}],\"itemType\":\"appointment\",\"id\":\"923c92ab-53f6-4091-946b-4f4219f342ea\",\"description\":\"Matthew basketball game\",\"endTime\":\"20:30:00\",\"itemDetails\":{\"reminder\":{\"minutesBefore\":60},\"id\":\"923c92ab-53f6-4091-946b-4f4219f342ea\",\"location\":\"Visitation new gym wear gray\"},\"itemVersion\":1479,\"day\":\"2026-01-02\",\"householdMembers\":[\"13344d84-655b-443b-843a-2d99339f5245\"],\"startTime\":\"19:30:00\"},\"ac7d1c49-3820-4aaf-a4b3-2a07c535c6be\":{\"reminders\":[{\"minutesBefore\":120},{\"minutesBefore\":60},{\"minutesBefore\":5}],\"descriptionShort\":\"Mom coffee w/ friends\",\"itemType\":\"appointment\",\"id\":\"ac7d1c49-3820-4aaf-a4b3-2a07c535c6be\",\"description\":\"Mom coffee with friends\",\"endTime\":\"09:15:00\",\"itemDetails\":{\"reminder\":{\"minutesBefore\":5},\"id\":\"ac7d1c49-3820-4aaf-a4b3-2a07c535c6be\",\"location\":\"Aromas cafe \"},\"itemVersion\":1486,\"day\":\"2026-01-03\",\"householdMembers\":[\"44fa2b15-644b-43ef-883f-d1b3249b5c20\"],\"startTime\":\"08:15:00\"},\"47b2abbc-a113-44be-98dd-5a7b96ca883e\":{\"reminders\":[{\"minutesBefore\":60}],\"itemType\":\"appointment\",\"id\":\"47b2abbc-a113-44be-98dd-5a7b96ca883e\",\"description\":\"Mitchell basketball game\",\"endTime\":\"11:00:00\",\"itemDetails\":{\"reminder\":{\"minutesBefore\":60},\"id\":\"47b2abbc-a113-44be-98dd-5a7b96ca883e\",\"location\":\"Antoninus\"},\"itemVersion\":1433,\"day\":\"2026-01-03\",\"householdMembers\":[\"acdb79e0-146e-4295-8f34-61407f39ef39\"],\"startTime\":\"10:00:00\"},\"e0a75b0b-9a79-4e82-af7a-c8e240a45ecd\":{\"reminders\":[{\"minutesBefore\":60}],\"itemType\":\"appointment\",\"id\":\"e0a75b0b-9a79-4e82-af7a-c8e240a45ecd\",\"description\":\"Matthew basketball game\",\"endTime\":\"14:00:00\",\"itemDetails\":{\"reminder\":{\"minutesBefore\":60},\"id\":\"e0a75b0b-9a79-4e82-af7a-c8e240a45ecd\",\"location\":\"St Teresa\"},\"itemVersion\":1445,\"day\":\"2026-01-03\",\"householdMembers\":[\"13344d84-655b-443b-843a-2d99339f5245\"],\"startTime\":\"13:00:00\"},\"6c9df4b9-60f4-4554-9994-1fac5c2bd3d5\":{\"reminders\":[{\"minutesBefore\":120},{\"minute...[TRUNCATED]"
+      },
+      {
+        "timestamp": "2026-01-07T04:53:18.334Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/4?apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:18.337Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/3?apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:18.342Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/2?apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null,
+        "responseStatus": 200,
+        "responseBody": "{\"endDate\":\"2026-03-01T00:00:00\",\"days\":{\"2026-02-01\":[{\"id\":\"f7ead9a5-202e-45a4-95e7-59212b33983e\"},{\"id\":\"65179890887001-b8d8526905b9e6db54d74f443ebc1653e1628cc1\"},{\"id\":\"0992d5f9-565d-42b2-8b71-49a9fa646ef4\"}],\"2026-02-07\":[{\"id\":\"de857efa-ed05-4833-8188-9d4620e2ad11\"},{\"id\":\"92fff681-d4f6-4784-a823-188346ff9a54\"}],\"2026-02-08\":[{\"id\":\"a08bde27-4462-4936-bdce-e4f6b4f1bce1\"}],\"2026-02-15\":[{\"id\":\"0996a5b4-6069-4203-a7ee-321e62f9fd18\"},{\"id\":\"65179890890001-b8d8526905b9e6db54d74f443ebc1653e1628cc1\"},{\"id\":\"5ef2f095-000a-422a-94b9-8caffde37288\"}],\"2026-02-22\":[{\"id\":\"65179890893001-b8d8526905b9e6db54d74f443ebc1653e1628cc1\"},{\"id\":\"f15a614b-c7db-477f-be37-d0a2bd2693b7\"}],\"2026-02-23\":[{\"id\":\"edb840c2-9e5b-4c0c-8c44-8bba3ed9f45b\"}],\"2026-02-27\":[{\"id\":\"1dd05077-83f6-4fe4-b964-264a5e2130b5\"},{\"id\":\"3797ac60-0bb1-4d7b-90bd-070030174568\"}],\"2026-02-06\":[{\"id\":\"3797ac60-0bb1-4d7b-90bd-070030174568\"}],\"2026-02-13\":[{\"id\":\"3797ac60-0bb1-4d7b-90bd-070030174568\"}],\"2026-02-20\":[{\"id\":\"3797ac60-0bb1-4d7b-90bd-070030174568\"}],\"2026-02-05\":[{\"id\":\"3fcde10f-e6e3-41bc-82e6-d90e397241fb\"}],\"2026-02-12\":[{\"id\":\"3fcde10f-e6e3-41bc-82e6-d90e397241fb\"}],\"2026-02-03\":[{\"id\":\"fb99158b-a0a1-46e0-b54a-248a8022dde5\"},{\"id\":\"f3d7415f-b67d-4532-bef1-cac590c588ea\"},{\"id\":\"6ba05e57-d109-4208-a0c8-c8b541833f1c\"},{\"id\":\"6840aa26-486e-405a-9466-d35d88d46905\"}],\"2026-02-10\":[{\"id\":\"fb99158b-a0a1-46e0-b54a-248a8022dde5\"},{\"id\":\"f3d7415f-b67d-4532-bef1-cac590c588ea\"},{\"id\":\"6ba05e57-d109-4208-a0c8-c8b541833f1c\"},{\"id\":\"6840aa26-486e-405a-9466-d35d88d46905\"}],\"2026-02-04\":[{\"id\":\"930690e0-a384-4035-805e-675a5efd4065\"}],\"2026-02-11\":[{\"id\":\"930690e0-a384-4035-805e-675a5efd4065\"}],\"2026-02-18\":[{\"id\":\"930690e0-a384-4035-805e-675a5efd4065\"}],\"2026-02-25\":[{\"id\":\"930690e0-a384-4035-805e-675a5efd4065\"}],\"2026-02-02\":[{\"id\":\"c4aeb581-1e34-4ceb-995c-2722902efd4c\"},{\"id\":\"bc42f727-012a-4629-8def-267e3e7a5568\"}],\"2026-02-09\":[{\"id\":\"bc42f727-012a-4629-8def-267e3e7a5568\"}],\"2026-02-16\":[{\"id\":\"53529457900001-0f...[TRUNCATED]"
+      },
+      {
+        "timestamp": "2026-01-07T04:53:20.904Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2025/12?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:20.907Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/1?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:20.908Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/2?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:21.030Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2025/12?apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:21.039Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/2?apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:21.045Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/calendar/2026/1?apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null,
+        "responseStatus": 200,
+        "responseBody": "{\"days\":{\"2025-12-01\":[{\"id\":\"b5861115-85ab-4b01-98b1-8fad69a35869\"}],\"2025-12-02\":[{\"id\":\"fb99158b-a0a1-46e0-b54a-248a8022dde5\"},{\"id\":\"f3d7415f-b67d-4532-bef1-cac590c588ea\"},{\"id\":\"6ba05e57-d109-4208-a0c8-c8b541833f1c\"},{\"id\":\"2fc70cdb-19c0-4ae9-ba89-6f691b51bb48\"},{\"id\":\"4cc75e53-b550-4e4f-8827-6d513acdeadb\"}],\"2025-12-03\":[{\"id\":\"bf87cff3-e648-4ca2-a5f4-c2a3f733848f\"},{\"id\":\"11bc4f82-98cc-4716-8fa1-46a5d01a0185\"},{\"id\":\"006e8e49-9ab9-42d0-a2fd-917c8df24d2d\"}],\"2025-12-04\":[{\"id\":\"72645a68-4c1c-4e25-8d11-b3feb9faffa0\"},{\"id\":\"ffed533c-daf5-497e-9d5e-3d2c6ac83314\"},{\"id\":\"3fcde10f-e6e3-41bc-82e6-d90e397241fb\"}],\"2025-12-05\":[{\"id\":\"4f242029-43ba-4089-8499-1ef574406216\"},{\"id\":\"cf0ee597-50f3-47cb-bc8e-35fc7f508d79\"},{\"id\":\"9bb57bda-0a62-41b5-bf5a-8b1d0b958db5\"}],\"2025-12-06\":[{\"id\":\"edbe3b74-68e3-40c5-9fac-265a8cef4b95\"},{\"id\":\"94e355aa-6d5b-41aa-8774-cb761e5cf4a9\"},{\"id\":\"ea676ba1-de0c-4ffb-97f9-0ec46977b404\"},{\"id\":\"8948b11d-717a-4d83-a7ff-7345fa2f0bc3\"},{\"id\":\"a1769981-0a3b-4712-87df-ad3a0733a9fd\"}],\"2025-12-07\":[{\"id\":\"fa8ec0fa-a8c2-4780-9298-06d8ad15eb92\"},{\"id\":\"e3005aa0-91b3-40dd-8d70-bb966e07cfe5\"},{\"id\":\"65179890869001-b8d8526905b9e6db54d74f443ebc1653e1628cc1\"}],\"2025-12-08\":[{\"id\":\"c4aeb581-1e34-4ceb-995c-2722902efd4c\"},{\"id\":\"edfad7db-cb07-4540-b9ef-af77602def51\"},{\"id\":\"5f652d49-2e9e-4bdc-94c2-3690ad11b153\"}],\"2025-12-09\":[{\"id\":\"fb99158b-a0a1-46e0-b54a-248a8022dde5\"},{\"id\":\"f3d7415f-b67d-4532-bef1-cac590c588ea\"},{\"id\":\"6ba05e57-d109-4208-a0c8-c8b541833f1c\"},{\"id\":\"686895ac-e2e7-40fc-a9bb-036485d68ccf\"},{\"id\":\"6840aa26-486e-405a-9466-d35d88d46905\"}],\"2025-12-10\":[{\"id\":\"a7dcff99-0898-478c-bd12-3b7dd8ed20c0\"},{\"id\":\"024952a0-e378-49ea-9115-777b331fe914\"},{\"id\":\"006e8e49-9ab9-42d0-a2fd-917c8df24d2d\"}],\"2025-12-11\":[{\"id\":\"e3c4ac90-c42c-4a13-838c-920bd69c43fd\"},{\"id\":\"64d645b5-b429-4eed-b2ee-70c30f23bac3\"},{\"id\":\"2483da19-0ff2-4e53-855f-5f6a94c675d8\"},{\"id\":\"3fcde10f-e6e3-41bc-82e6-d90e397241fb\"}],\"2025-12-12\":[{\"id\":\"0e020671-714a-4ceb-bbac-bfdd3c8bd41b\"}...[TRUNCATED]"
+      }
+    ],
+    "other": [
+      {
+        "timestamp": "2026-01-07T04:52:46.728Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2207/auth/login?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:52:47.251Z",
+        "method": "POST",
+        "url": "https://rest.cozi.com/api/ext/2207/auth/login?apikey=coziwc|v249_production",
+        "headers": {
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": "{\"username\":\"ben.hofstetter@gmail.com\",\"password\":\"1500WynnburneDrive!\",\"issueRefresh\":false}",
+        "responseStatus": 200,
+        "responseBody": {
+          "accountId": "a2e52256-6f35-4f4a-b158-e3e1f96e387d",
+          "accountPersonId": "16b5c6ae-7089-4365-85ce-f6661ceba63d",
+          "accessToken": "v8cIc0bQy0tuX_4Yvz9PXa7q",
+          "expiresIn": 14400
+        }
+      },
+      {
+        "timestamp": "2026-01-07T04:52:47.933Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/person/?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:52:48.100Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/person/?apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null,
+        "responseStatus": 200,
+        "responseBody": "[{\"version\":2114,\"colorIndex\":14,\"accountPersonId\":\"16b5c6ae-7089-4365-85ce-f6661ceba63d\",\"accountPersonType\":\"user\",\"notifiable\":true,\"settings\":{\"weeklyAgenda\":{\"emailEnabled\":true},\"dailyAgenda\":{\"emailEnabled\":false},\"calendarItemReminder\":{\"emailEnabled\":true,\"pushEnabled\":true},\"calendarItemNotification\":{\"emailEnabled\":true,\"pushEnabled\":true,\"sendByDefault\":true}},\"accountCreator\":false,\"notifiableFeatures\":[\"calendarItemNotification\",\"calendarItemReminder\"],\"name\":\"Ben\",\"emailStatus\":\"verified\",\"email\":\"ben.hofstetter@gmail.com\",\"isAdult\":true,\"phoneNumberKey\":null},{\"version\":1891,\"colorIndex\":10,\"accountPersonId\":\"44fa2b15-644b-43ef-883f-d1b3249b5c20\",\"accountPersonType\":\"user\",\"notifiable\":true,\"settings\":{\"weeklyAgenda\":{\"emailEnabled\":true},\"dailyAgenda\":{\"emailEnabled\":true},\"calendarItemReminder\":{\"emailEnabled\":true,\"pushEnabled\":true},\"calendarItemNotification\":{\"emailEnabled\":true,\"pushEnabled\":true,\"sendByDefault\":true}},\"accountCreator\":false,\"notifiableFeatures\":[\"calendarItemNotification\",\"calendarItemReminder\"],\"name\":\"Colleen\",\"emailStatus\":\"verified\",\"email\":\"colleenetepe@gmail.com\",\"isAdult\":false,\"phoneNumberKey\":null},{\"version\":28,\"colorIndex\":5,\"accountPersonId\":\"13344d84-655b-443b-843a-2d99339f5245\",\"accountPersonType\":\"user\",\"notifiable\":true,\"settings\":{\"weeklyAgenda\":{\"emailEnabled\":true},\"dailyAgenda\":{\"emailEnabled\":false},\"calendarItemReminder\":{\"emailEnabled\":true,\"pushEnabled\":true},\"calendarItemNotification\":{\"emailEnabled\":true,\"pushEnabled\":true,\"sendByDefault\":true}},\"accountCreator\":false,\"notifiableFeatures\":[\"calendarItemNotification\",\"calendarItemReminder\"],\"name\":\"Matthew\",\"emailStatus\":\"not verified\",\"email\":\"matthew.hofstetter@gmail.com\",\"isAdult\":false,\"phoneNumberKey\":null},{\"version\":13,\"colorIndex\":4,\"accountPersonId\":\"acdb79e0-146e-4295-8f34-61407f39ef39\",\"accountPersonType\":\"attendee\",\"notifiable\":false,\"settings\":{\"weeklyAgenda\":{\"emailEnabled\":true},\"dailyAgenda\":{\"emailEnabled\":false},\"calendarItemReminder\"...[TRUNCATED]"
+      },
+      {
+        "timestamp": "2026-01-07T04:52:48.290Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2106/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/user/settings?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:52:48.473Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2106/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/user/settings?apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null,
+        "responseStatus": 200,
+        "responseBody": {
+          "users": {}
+        }
+      },
+      {
+        "timestamp": "2026-01-07T04:52:48.664Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:52:48.871Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/account/?apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:52:49.059Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2307/a2e52256-6f35-4f4a-b158-e3e1f96e387d/iterable/16b5c6ae-7089-4365-85ce-f6661ceba63d/token?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:52:49.059Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/subscription/?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null,
+        "responseStatus": 200,
+        "responseBody": {
+          "accountId": "a2e52256-6f35-4f4a-b158-e3e1f96e387d",
+          "cobrand": "COZI",
+          "creationDate": "2021-08-01T18:55:24",
+          "name": "Hofstetter Family",
+          "colorIndex": 1,
+          "timezone": "America/New_York",
+          "regionDesignator": "US",
+          "languageDesignator": "en",
+          "analyticsOn": true,
+          "signupSource": "Cozi - iOS",
+          "photo": {
+            "width": 768,
+            "thumbWidth": 384,
+            "isDefault": false,
+            "id": "c0838d41-0c8a-5283-962e-4e5e31b2906e",
+            "height": 1024,
+            "size": 122974,
+            "thumbHeight": 512,
+            "url": "https://s3.amazonaws.com/cozi-photo/N_c0838d410c8a5283962e4e5e31b2906e.jpg",
+            "thumbUrl": "https://s3.amazonaws.com/cozi-photo/T_c0838d410c8a5283962e4e5e31b2906e.jpg"
+          }
+        }
+      },
+      {
+        "timestamp": "2026-01-07T04:52:49.258Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/subscription/?apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:52:49.274Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2307/a2e52256-6f35-4f4a-b158-e3e1f96e387d/iterable/16b5c6ae-7089-4365-85ce-f6661ceba63d/token?apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null,
+        "responseStatus": 200,
+        "responseBody": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxNmI1YzZhZS03MDg5LTQzNjUtODVjZS1mNjY2MWNlYmE2M2QiLCJpYXQiOjE3Njc3NjE1NjksImV4cCI6MTc3NTcxMDM2OX0.O02KluJ9rMMw6x9UIZnyEkjHDVLx-yvFs91xPCtBApw",
+          "expiresAt": "2026-04-09T04:52:49"
+        }
+      },
+      {
+        "timestamp": "2026-01-07T04:52:49.671Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/config/?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null,
+        "responseStatus": 200,
+        "responseBody": [
+          {
+            "subscriptionStartDate": "2023-11-01T01:53:48",
+            "providerSubscriptionId": "sub_1O2OxEE5vggpd8DBeEhITUbN",
+            "subscriptionId": "4a68e827-492b-4d1f-9876-0f1ccbb34466",
+            "subscriptionEndDate": null,
+            "subscriptionStatus": "active",
+            "inTrial": false,
+            "subscriptionProduct": "cozi_gold_stripe_yearly_39",
+            "productProvider": "stripe",
+            "providerUrl": "https://dashboard.stripe.com",
+            "entitlementId": "cozi_gold",
+            "renewing": true,
+            "statusPendingConfirmation": false,
+            "latestPaymentDate": "2025-11-01T03:18:45",
+            "concluded": false,
+            "nextPaymentDate": "2026-11-01T01:53:48",
+            "paymentMethod": {
+              "brand": "Visa",
+              "expMonth": 12,
+              "expYear": 2028,
+              "name": "Colleen Tepe Hofstetter",
+              "lastFour": "1547"
+            },
+            "subscriptionAmount": 3900
+          },
+          {
+            "subscriptionStartDate": "2021-08-01T19:33:37",
+            "providerSubscriptionId": "110001070568779",
+            "subscriptionId": "b81cb738-1dde-4b3c-bf3a-da2db7698eb1",
+            "subscriptionEndDate": "2023-08-01T19:37:06",
+            "subscriptionStatus": "canceled",
+            "inTrial": false,
+            "subscriptionProduct": "cozi_gold_iap_yearly_autorenewing",
+            "productProvider": "apple",
+            "providerUrl": null,
+            "entitlementId": "cozi_gold",
+            "renewing": true,
+            "secondsToExpiry": 0,
+            "statusPendingConfirmation": false,
+            "latestPaymentDate": "2022-08-01T19:35:09",
+            "concluded": false,
+            "nextPaymentDate": null
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-01-07T04:52:49.837Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/config/?apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null,
+        "responseStatus": 200,
+        "responseBody": "{\"features\":[\"3DayView\",\"AdminEntitlementApiTests_1719961614864_feature_1\",\"AdminEntitlementApiTests_1749186693149_feature_1\",\"AdminEntitlementApiTests_1762492800984_feature_1\",\"AdminEntitlementApiTests_1762924801871_feature_1\",\"AdminEntitlementApiTests_1763443333903_feature_1\",\"AdminEntitlementApiTests_1765430758836_feature_1\",\"AdminEntitlementApiTests_1765949143923_feature_1\",\"AlpineTheme\",\"AnniversaryTheme\",\"BalanceTheme\",\"Birthdays\",\"BlocksTheme\",\"BloomTheme\",\"BlossomTheme\",\"CalendarChangeNotifications\",\"CalendarEventCreationNotification\",\"CalendarSearch\",\"CalendarWidget\",\"ChillTheme\",\"Chores\",\"ChromeTheme\",\"CopyEvent\",\"CosmicTheme\",\"CoziMaxOverride\",\"CoziclassicTheme\",\"DoodleTheme\",\"ErincondrenTheme\",\"FilterByAttendee\",\"GlowTheme\",\"GoogleImport\",\"HighcontrastTheme\",\"JetsTheme\",\"MealPlanner\",\"MealsWebView\",\"MobileMonthView\",\"MobileRecipeBox\",\"MultipleReminders\",\"PlankTheme\",\"PlumTheme\",\"ShoppingMode\",\"ShoppingModeTrial\",\"SmartAdd\",\"Suppress30DayTeaser\",\"SuppressAds\",\"Themes\",\"TransportTheme\",\"VacationTheme\"],\"featureKeys\":[\"3DayView\",\"AdminEntitlementApiTests_1719961614864_feature_1\",\"AdminEntitlementApiTests_1749186693149_feature_1\",\"AdminEntitlementApiTests_1762492800984_feature_1\",\"AdminEntitlementApiTests_1762924801871_feature_1\",\"AdminEntitlementApiTests_1763443333903_feature_1\",\"AdminEntitlementApiTests_1765430758836_feature_1\",\"AdminEntitlementApiTests_1765949143923_feature_1\",\"AnniversaryTheme\",\"Birthdays\",\"BloomTheme\",\"CalendarChangeNotifications\",\"CalendarEventCreationNotification\",\"CalendarSearch\",\"CalendarWidget\",\"Chores\",\"CopyEvent\",\"CoziclassicTheme\",\"ErincondrenTheme\",\"FilterByAttendee\",\"GoogleImport\",\"HighcontrastTheme\",\"MealPlanner\",\"MealsWebView\",\"MobileMonthView\",\"MobileRecipeBox\",\"MultipleReminders\",\"ShoppingMode\",\"ShoppingModeTrial\",\"SmartAdd\",\"Suppress30DayTeaser\",\"SuppressAds\",\"Themes\"],\"featureConfig\":{},\"feature.Meals\":{\"curated\":{\"recipes\":[{\"tag\":\"Cozi Picks\",\"category\":\"Cozi picks\",\"urlKey\":\"Cozi%20picks\",\"isSponsored\":false,\"isUpsell...[TRUNCATED]"
+      },
+      {
+        "timestamp": "2026-01-07T04:52:50.055Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/subscription/product/?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:52:50.200Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/subscription/product/?apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null,
+        "responseStatus": 200,
+        "responseBody": {
+          "premiumBundleId": "2013_autumn_1",
+          "products": [
+            {
+              "productName": "cozi_gold_stripe_yearly_39",
+              "providerName": "stripe",
+              "entitlementId": "cozi_gold",
+              "features": [
+                "3DayView",
+                "Birthdays",
+                "CalendarChangeNotifications",
+                "CalendarEventCreationNotification",
+                "CalendarSearch",
+                "ContactsEdit",
+                "CopyEvent",
+                "FilterByAttendee",
+                "MealsWebView",
+                "MobileMonthView",
+                "MultipleReminders",
+                "ShoppingMode",
+                "ShoppingModeTrial",
+                "SmartAdd",
+                "StagingOnlyTestFeature",
+                "Suppress30DayTeaser",
+                "SuppressAds",
+                "Themes"
+              ],
+              "description": "Cozi Gold Yearly ($39.00 w/ free 14 day trial)",
+              "trialDays": 14,
+              "displayPrice": "$39/year",
+              "baseAmount": 39,
+              "attributes": {}
+            }
+          ],
+          "offeringUrl": "https://www.cozi.com/",
+          "termsOfUseUrl": "https://www.cozi.com/",
+          "couponData": {
+            "queryStringParam": "coupon",
+            "validText": "With this offer, Cozi Gold is just $[[price]]/year and covers the whole family and every device.",
+            "invalidText": "Unfortunately, the offer you are using is no longer valid. You can still enjoy Cozi Gold at our regular price.",
+            "coupons": {}
+          }
+        }
+      },
+      {
+        "timestamp": "2026-01-07T04:52:51.415Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:52:51.529Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null,
+        "responseStatus": 200,
+        "responseBody": [
+          {
+            "title": "Wholesale",
+            "items": [],
+            "listId": "dec2f338-c6b0-4595-a568-6cebb2a8d46e",
+            "listType": "shopping",
+            "notes": null,
+            "owner": null,
+            "version": 8
+          },
+          {
+            "title": "Groceries",
+            "items": [
+              {
+                "text": "item",
+                "itemId": "b539e5f7-5b6e-472e-8470-f8b49f147524",
+                "itemType": null,
+                "notes": null,
+                "owner": null,
+                "status": "incomplete",
+                "version": 11
+              }
+            ],
+            "listId": "d460a09c-ef6e-4c67-bad3-0ba74f674c91",
+            "listType": "shopping",
+            "notes": null,
+            "owner": null,
+            "version": 11
+          },
+          {
+            "title": "Other",
+            "items": [],
+            "listId": "de665cce-a5d8-4f36-8162-d3beecee2ee0",
+            "listType": "shopping",
+            "notes": null,
+            "owner": null,
+            "version": 8
+          },
+          {
+            "title": "Shared To Do",
+            "items": [],
+            "listId": "4e896250-7d48-4230-af38-d68709ce1831",
+            "listType": "todo",
+            "notes": null,
+            "owner": null,
+            "version": 1
+          },
+          {
+            "title": "Ben To Do",
+            "items": [],
+            "listId": "af69064b-42df-4280-b64e-bfac32f9f1e1",
+            "listType": "todo",
+            "notes": null,
+            "owner": "16b5c6ae-7089-4365-85ce-f6661ceba63d",
+            "version": 1
+          },
+          {
+            "title": "Colleen’s To-Do List",
+            "items": [],
+            "listId": "a6a49d2b-c068-459c-a6cc-abbe652ef3ae",
+            "listType": "todo",
+            "notes": null,
+            "owner": "44fa2b15-644b-43ef-883f-d1b3249b5c20",
+            "version": 10
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-01-07T04:53:36.561Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:36.701Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?&apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:39.402Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/dec2f338-c6b0-4595-a568-6cebb2a8d46e/item/?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:39.405Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?list_type=shopping&apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:39.527Z",
+        "method": "POST",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/dec2f338-c6b0-4595-a568-6cebb2a8d46e/item/?apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": "{\"text\":\"Test\",\"position\":0}"
+      },
+      {
+        "timestamp": "2026-01-07T04:53:39.550Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?list_type=shopping&apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null,
+        "responseStatus": 201,
+        "responseBody": {
+          "text": "Test",
+          "itemId": "bc3be75a-a0c5-45ed-b731-8aced4cb736a",
+          "itemType": null,
+          "notes": null,
+          "owner": null,
+          "status": "incomplete",
+          "version": 12
+        }
+      },
+      {
+        "timestamp": "2026-01-07T04:53:46.889Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/dec2f338-c6b0-4595-a568-6cebb2a8d46e/item/?apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:46.892Z",
+        "method": "OPTIONS",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?list_type=shopping&apikey=coziwc|v249_production",
+        "headers": {},
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:47.097Z",
+        "method": "GET",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/?list_type=shopping&apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": null
+      },
+      {
+        "timestamp": "2026-01-07T04:53:47.100Z",
+        "method": "POST",
+        "url": "https://rest.cozi.com/api/ext/2004/a2e52256-6f35-4f4a-b158-e3e1f96e387d/list/dec2f338-c6b0-4595-a568-6cebb2a8d46e/item/?apikey=coziwc|v249_production",
+        "headers": {
+          "authorization": "Bearer [REDACTED]",
+          "content-type": "application/json; charset=utf-8"
+        },
+        "postData": "{\"text\":\"TESST\",\"position\":0}",
+        "responseStatus": 201,
+        "responseBody": {
+          "text": "TESST",
+          "itemId": "7df320c1-2f3f-43e7-aba9-8ac9df786a78",
+          "itemType": "header",
+          "notes": null,
+          "owner": null,
+          "status": "incomplete",
+          "version": 13
+        }
+      }
+    ]
+  }
+}
