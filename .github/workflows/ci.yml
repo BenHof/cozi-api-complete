@@ -2,9 +2,29 @@ name: CI
 
 on:
   push:
+    paths:
+      - '**.py'
+      - 'requirements*.txt'
+      - 'pyproject.toml'
+      - '.github/workflows/*.yml'
+      - '.github/workflows/*.yaml'
+      - 'scripts/**'
     branches: [ main, master ]
   pull_request:
+    paths:
+      - '**.py'
+      - 'requirements*.txt'
+      - 'pyproject.toml'
+      - '.github/workflows/*.yml'
+      - '.github/workflows/*.yaml'
+      - 'scripts/**'
     branches: [ main, master ]
+
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   test:
