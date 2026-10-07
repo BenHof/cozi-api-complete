@@ -52,15 +52,30 @@ registry publication or new tag was executed for this metadata repair.
 - Metadata assertions confirmed canonical URLs, the `main` release branch,
   both publishing guards, inclusion of the lockfile in release commits, and
   manifest/lockfile name and version consistency.
+- The repaired workflow's commands passed locally: lint (zero errors, 12 existing
+  explicit-any warnings), build, all 98 tests with coverage, CLI help and package
+  inspection. Overall line coverage is 62.26%; the CLI has no unit coverage, so
+  this project does not claim 100% overall coverage.
+- Workflow YAML parsing and event/runtime/publishing-guard checks passed.
 - `git diff --check` succeeded. No publishing or release command was run.
 
-## Adjacent CI limitations
+## CI repair
 
-The existing CI workflow filters for Python files and scripts, so TypeScript,
-package and README changes alone do not trigger its checks. Its Node 18/20 test
-matrix also predates the current release toolchain (`@semantic-release/npm` 13
-requires Node 22.14+). This repair does not claim that automated releases are
-production-ready. CI triggers/runtime modernization remains separate work.
+CI now watches TypeScript source, examples, package/lockfile metadata,
+compiler/lint/release configuration, workflow files, scripts and the packaged
+documentation. Both push and pull-request events target the actual `main` branch.
+
+The test matrix uses Node 22.x and 24.x. Each job installs dependencies, lints,
+builds, runs the suite once with coverage, checks CLI help and inspects the local
+package contents. Puppeteer's browser download is skipped because these checks
+do not use browser automation.
+
+Checkout and Node setup use the current official v7 actions. The release job uses
+Node 24.x and fetches complete commit/tag history. It runs only after successful
+main-push checks, receives its GitHub token, and uses the installed semantic-release
+binary. It receives no npm publishing token; both npm publishing guards remain
+in effect. Pull requests have read-only default token permissions and skip the
+release job. Main releases are not cancelled mid-flight by newer pushes.
 
 ## Sources
 
@@ -70,3 +85,5 @@ production-ready. CI triggers/runtime modernization remains separate work.
 - https://registry.npmjs.org/@brandcast_app%2Fcozi-api-client
 - https://github.com/BrandCast-Signage/cozi-api-client
 - https://github.com/semantic-release/npm#options
+- https://github.com/actions/setup-node/tree/v7
+- https://github.com/actions/checkout/tree/v7

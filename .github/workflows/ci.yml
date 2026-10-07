@@ -3,82 +3,94 @@ name: CI
 on:
   push:
     paths:
-      - '**.py'
-      - 'requirements*.txt'
-      - 'pyproject.toml'
-      - '.github/workflows/*.yml'
-      - '.github/workflows/*.yaml'
+      - 'src/**'
+      - 'examples/**'
+      - 'package*.json'
+      - 'tsconfig*.json'
+      - 'eslint.config.*'
+      - '.releaserc*'
+      - '.github/workflows/**'
       - 'scripts/**'
-    branches: [ main, master ]
+      - 'README.md'
+      - 'CONTRIBUTING.md'
+      - 'docs/**'
+    branches: [main]
   pull_request:
     paths:
-      - '**.py'
-      - 'requirements*.txt'
-      - 'pyproject.toml'
-      - '.github/workflows/*.yml'
-      - '.github/workflows/*.yaml'
+      - 'src/**'
+      - 'examples/**'
+      - 'package*.json'
+      - 'tsconfig*.json'
+      - 'eslint.config.*'
+      - '.releaserc*'
+      - '.github/workflows/**'
       - 'scripts/**'
-    branches: [ main, master ]
-
+      - 'README.md'
+      - 'CONTRIBUTING.md'
+      - 'docs/**'
+    branches: [main]
   workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  PUPPETEER_SKIP_DOWNLOAD: 'true'
 
 concurrency:
   group: ci-${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  # Do not interrupt a main-branch release while it is writing tags/metadata.
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   test:
-    name: Test & Lint
+    name: Test & Lint (Node ${{ matrix.node-version }})
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     strategy:
       matrix:
-        node-version: [18.x, 20.x]
-
+        node-version: [22.x, 24.x]
     steps:
-    - uses: actions/checkout@v4
-    
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-
-    - name: Install dependencies
-      run: npm ci
-
-    - name: Lint
-      run: npm run lint
-
-    - name: Build
-      run: npm run build
-
-    - name: Run Tests
-      run: npm test
-
-    - name: Check Coverage
-      run: npm run test:coverage
+      - uses: actions/checkout@v7
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v7
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Lint
+        run: npm run lint
+      - name: Build
+        run: npm run build
+      - name: Run tests with coverage
+        run: npm run test:coverage -- --runInBand
+      - name: Check CLI and package contents
+        run: |
+          node dist/cli.js --help
+          npm pack --dry-run
 
   release:
     name: Release
     needs: test
-    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
-      contents: write # needed for semantic-release to commit changelog/tags
+      contents: write
       issues: write
       pull-requests: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v7
         with:
-          node-version: 20
-          cache: 'npm'
-      
+          fetch-depth: 0
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24.x
+          cache: npm
       - run: npm ci
       - run: npm run build
-      
-      - name: Semantic Release
+      - name: Semantic Release (GitHub only; npm publishing disabled)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release
+        run: npx --no-install semantic-release

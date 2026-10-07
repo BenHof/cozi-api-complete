@@ -3,6 +3,7 @@
 ![Cozi API Client Banner](./media/banner.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CI](https://github.com/BenHof/cozi-api-complete/actions/workflows/ci.yml/badge.svg)](https://github.com/BenHof/cozi-api-complete/actions/workflows/ci.yml)
 [![GitHub releases](https://img.shields.io/github/v/release/BenHof/cozi-api-complete)](https://github.com/BenHof/cozi-api-complete/releases)
 [![Distribution](https://img.shields.io/badge/distribution-local%20build-blue.svg)](#-installation)
 
