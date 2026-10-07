@@ -1,3 +1,7 @@
+> Historical entries below were inherited from earlier repositories. They do not
+> represent tags or releases of `BenHof/cozi-api-complete`; original commit links
+> are preserved for provenance. See [release identity evidence](docs/release-identity.md).
+
 # 1.0.0 (2026-01-07)
 
 

@@ -13,7 +13,7 @@ This is an **unofficial** client library based on reverse engineering. Any contr
 
 ### Prerequisites
 
-- Node.js >= 16.0.0
+- Node.js 22.14+ (22.x) or 24.10+ for the current development/release toolchain
 - npm or yarn
 - TypeScript knowledge
 
@@ -21,8 +21,8 @@ This is an **unofficial** client library based on reverse engineering. Any contr
 
 1. Fork and clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/cozi-api-client.git
-cd cozi-api-client
+git clone https://github.com/YOUR_USERNAME/cozi-api-complete.git
+cd cozi-api-complete
 ```
 
 2. Install dependencies:

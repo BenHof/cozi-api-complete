@@ -3,8 +3,8 @@
 ![Cozi API Client Banner](./media/banner.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![npm version](https://img.shields.io/npm/v/cozi-api-client.svg?style=flat)](https://www.npmjs.com/package/cozi-api-client)
-[![Coverage Status](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)](https://github.com/BenHof/cozi-api-client)
+[![GitHub releases](https://img.shields.io/github/v/release/BenHof/cozi-api-complete)](https://github.com/BenHof/cozi-api-complete/releases)
+[![Distribution](https://img.shields.io/badge/distribution-local%20build-blue.svg)](#-installation)
 
 Unofficial TypeScript/JavaScript client for the Cozi Family Organizer API.
 
@@ -25,23 +25,53 @@ Based on the original [BrandCast Cozi Client](https://github.com/BrandCast-Signa
 | **⚙️ Account** | Subscription status, products & config flags | ✅ |
 | **🔔 Notifications** | Push token management | ✅ |
 | **📐 Types** | 100% Typed with TypeScript | ✅ |
-| **🛡️ Robustness** | **100% Test Coverage** (98+ tests) | ✅ |
+| **🛡️ Robustness** | Jest unit test suite | ✅ |
 
 ## 📦 Installation
 
+This enhanced client is maintained at [BenHof/cozi-api-complete](https://github.com/BenHof/cozi-api-complete).
+It has **no verified npm release**. The name `cozi-api-client` in `package.json`
+is currently a local package/import identifier, not a confirmed registry identity.
+Do not use `npm install cozi-api-client` or `npx cozi-api-client` to obtain this version.
+
+Use Node.js 22.14+ (22.x) or 24.10+ for the current development/release toolchain.
+Build and package the source locally:
+
 ```bash
-npm install cozi-api-client
+git clone https://github.com/BenHof/cozi-api-complete.git
+cd cozi-api-complete
+npm ci
+npm run build
+npm test
+npm pack
 ```
+
+Then install the generated tarball in your application:
+
+```bash
+# Use the filename printed by npm pack; 1.0.0 is the current source metadata version.
+npm install /absolute/path/to/cozi-api-complete/cozi-api-client-1.0.0.tgz
+```
+
+The existing npm package [`@brandcast_app/cozi-api-client`](https://www.npmjs.com/package/@brandcast_app/cozi-api-client)
+is the original **BrandCast** client (published version `0.1.0`), not a release of
+this enhanced repository. Its npm ownership does not establish publishing rights
+for this project.
 
 ## 💻 CLI Tool
 
 The package includes an interactive CLI tool for quick access to your Cozi data.
 
 ```bash
-# Run via npx
-npx cozi-api-client login
-npx cozi-api-client lists
-npx cozi-api-client calendar
+# From the built source checkout
+node dist/cli.js login
+node dist/cli.js lists
+node dist/cli.js calendar
+
+# From your application after installing the local tarball
+./node_modules/.bin/cozi login
+./node_modules/.bin/cozi lists
+./node_modules/.bin/cozi calendar
 ```
 
 ## 🚀 Quick Start
@@ -196,6 +226,24 @@ const client = new CoziApiClient({
   userAgent: 'MyApp/1.0' // Custom User-Agent
 });
 ```
+
+## Release identity and publishing status
+
+- **Canonical GitHub repository:** [BenHof/cozi-api-complete](https://github.com/BenHof/cozi-api-complete).
+- **npm identity:** undecided; the local identifier remains `cozi-api-client` for compatibility.
+- **Publishing guard:** `package.json` is marked `private: true`, and `.releaserc` keeps `npmPublish: false`.
+  The public source repository remains available; `private` prevents registry publication.
+- **GitHub releases:** semantic-release targets `main` and the canonical repository,
+  updates package metadata and the changelog, and can create GitHub releases without publishing to npm.
+  Version changes include both `package.json` and `package-lock.json` in the release commit.
+- **History:** as of October 7, 2026 UTC, this public repository has no tags or GitHub releases.
+  The inherited changelog and source version are not evidence of a release from this repository.
+
+Before enabling npm publishing, confirm the intended package name and authenticated
+npm account/organization ownership or publishing rights. An unscoped registry lookup
+returning 404 does not establish name availability or ownership. Update the manifest,
+lockfile, install/import/CLI examples and npm badge together, and remove both publishing
+guards only after verification. See [release identity evidence](docs/release-identity.md).
 
 ## 🤝 Contributing
 
