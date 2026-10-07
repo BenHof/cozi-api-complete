@@ -31,8 +31,9 @@ Based on the original [BrandCast Cozi Client](https://github.com/BrandCast-Signa
 ## 📦 Installation
 
 This enhanced client is maintained at [BenHof/cozi-api-complete](https://github.com/BenHof/cozi-api-complete).
-It has **no verified npm release**. The name `cozi-api-client` in `package.json`
-is currently a local package/import identifier, not a confirmed registry identity.
+Distribution is **GitHub source and locally built tarballs only**; npm registry
+publishing is disabled by project decision. The name `cozi-api-client` in
+`package.json` is the local package/import identifier.
 Do not use `npm install cozi-api-client` or `npx cozi-api-client` to obtain this version.
 
 Use Node.js 22.14+ (22.x) or 24.10+ for the current development/release toolchain.
@@ -231,20 +232,21 @@ const client = new CoziApiClient({
 ## Release identity and publishing status
 
 - **Canonical GitHub repository:** [BenHof/cozi-api-complete](https://github.com/BenHof/cozi-api-complete).
-- **npm identity:** undecided; the local identifier remains `cozi-api-client` for compatibility.
+- **Distribution decision:** GitHub/local installation only (confirmed October 7, 2026).
+- **Local package identity:** `cozi-api-client`; no npm registry identity is planned.
 - **Publishing guard:** `package.json` is marked `private: true`, and `.releaserc` keeps `npmPublish: false`.
   The public source repository remains available; `private` prevents registry publication.
 - **GitHub releases:** semantic-release targets `main` and the canonical repository,
   updates package metadata and the changelog, and can create GitHub releases without publishing to npm.
   Version changes include both `package.json` and `package-lock.json` in the release commit.
-- **History:** as of October 7, 2026 UTC, this public repository has no tags or GitHub releases.
-  The inherited changelog and source version are not evidence of a release from this repository.
+- **GitHub release:** [v1.0.0](https://github.com/BenHof/cozi-api-complete/releases/tag/v1.0.0)
+  was created October 7, 2026 UTC. The release workflow explicitly skipped npm publication.
+  Earlier inherited changelog entries remain historical provenance.
 
-Before enabling npm publishing, confirm the intended package name and authenticated
-npm account/organization ownership or publishing rights. An unscoped registry lookup
-returning 404 does not establish name availability or ownership. Update the manifest,
-lockfile, install/import/CLI examples and npm badge together, and remove both publishing
-guards only after verification. See [release identity evidence](docs/release-identity.md).
+No npm login or ownership verification is needed for the chosen distribution path.
+Keep both publishing guards enabled. A future move to npm requires a new distribution
+decision and verification of the intended name and publishing rights.
+See [release identity evidence and decision](docs/release-identity.md).
 
 ## 🤝 Contributing
 
