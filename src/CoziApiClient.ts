@@ -3,7 +3,7 @@
  *
  * Unofficial TypeScript/JavaScript client for Cozi Family Organizer API.
  *
- * @see https://github.com/BenHof/cozi-api-client
+ * @see https://github.com/BenHof/cozi-api-complete
  */
 
 import axios, { AxiosInstance, AxiosError } from 'axios';
