@@ -1,3 +1,10 @@
+# 1.0.0 (2026-10-07)
+
+
+### Bug Fixes
+
+* align release identity and restore TypeScript CI ([#1](https://github.com/BenHof/cozi-api-complete/issues/1)) ([2f2ed76](https://github.com/BenHof/cozi-api-complete/commit/2f2ed7642857f241217fa0eddb55779bb66f5797))
+
 > Historical entries below were inherited from earlier repositories. They do not
 > represent tags or releases of `BenHof/cozi-api-complete`; original commit links
 > are preserved for provenance. See [release identity evidence](docs/release-identity.md).
